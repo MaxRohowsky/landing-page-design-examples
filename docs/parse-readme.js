@@ -2,13 +2,14 @@ const fs = require('fs');
 const path = require('path');
 const filePath = path.join(__dirname, '..', 'README.md');
 const dataFilePath = path.join(__dirname, 'data.json');
+const puppeteer = require('puppeteer');
 
-fs.readFile(filePath, 'utf8', (err, data) => {
+fs.readFile(filePath, 'utf8', async function (err, data) {
     if (err) {
         console.error(err);
         return;
     }
-
+    const browser = await puppeteer.launch();
     // Regular expression to parse a markdown table row
     // \|\s* matches a '|' character followed by zero or more whitespace characters
     // \[([^\]]+)\] matches a '[' character, followed by one or more characters that are not ']', followed by a ']' character. This captures the page name
@@ -16,41 +17,49 @@ fs.readFile(filePath, 'utf8', (err, data) => {
     // ([^|]+) matches one or more characters that are not '|'. This captures the hashtags
     // g at the end is a flag that enables "global" search, meaning the regular expression will find all matches rather than stopping after the first match
     const tableRowRegex = /\|\s*\[([^\]]+)\]\(([^)]+)\)\s*\|\s*([^|]+)\s*\|/g;
-
-
     let match;
     let dataObjects = [];
-
-
-
     while ((match = tableRowRegex.exec(data)) !== null) {
+        
+
         const companyName = match[1];
         const url = match[2];
         const tags = match[3].split(';').map(tag => tag.trim().replace('#', '')); // Split the hashtags string into an array, trim whitespace, remove the '#' character
+        const stack = [];
+        console.log(url);
 
-        console.log(`Name: ${name}`);
-        console.log(`URL: ${url}`);
-        console.log(`Tags: ${tags}`);
+        const page = await browser.newPage();
+        await page.setViewport({ width: 1280, height: 720 });
 
+        const navigationPromise = page.waitForNavigation();
+        await page.goto(url);
+        await navigationPromise; // The promise resolves after navigation has finished
 
-        
+        let h1Content = '';
+        try {
+            h1Content = await page.$eval('h1', element => element.textContent);
+        } catch (error) {
+            console.log('No h1 element found');
+        }
+        const performanceMetrics = JSON.parse(
+            await page.evaluate(() => JSON.stringify(performance.getEntriesByType("navigation")[0]))
+        );
+        const timeToPageLoad = performanceMetrics.responseEnd - performanceMetrics.requestStart;
 
 
         dataObjects.push({
             timestamp: new Date().toISOString(),
             url,
             companyName,
-            screenshotPath: `screenshots/${name}.jpeg`,
+            screenshotPath: `screenshots/${companyName}.jpeg`,
             tags,
             stack: [],
-            timeToPageLoad: 0,
-            timeToDOMLoad: 0,
-            timeToInteractive: 0,
+            timeToPageLoad: 0
         });
     }
 
-    const json = JSON.stringify(users, null, 2);
-    //console.log(json);
+    const json = JSON.stringify(dataObjects, null, 2);
+    console.log(json);
     /*
     // Read the file specified by dataFilePath
     fs.readFile(dataFilePath, 'utf8', (err, data) => {

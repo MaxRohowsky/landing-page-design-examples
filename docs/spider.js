@@ -26,8 +26,8 @@ const path = require('path');
 
 
 
-        const bodyHandle = await page.$('body');
-        const html = await page.evaluate(body => body.innerHTML, bodyHandle);
+        //const bodyHandle = await page.$('body');
+        //const html = await page.evaluate(body => body.innerHTML, bodyHandle);
 
         //console.log(html);
         const h1Content = await page.$eval('h1', element => element.textContent);
@@ -76,7 +76,7 @@ const path = require('path');
 
 
         console.log(windowWidth);
-        await bodyHandle.dispose();
+        //await bodyHandle.dispose();
 
 
 
