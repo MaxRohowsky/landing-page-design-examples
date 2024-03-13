@@ -9,29 +9,49 @@ fs.readFile(filePath, 'utf8', (err, data) => {
         return;
     }
 
-    // Define a regular expression to match the user data
-    //const regex = /\|\s*(\w+)\s*\|\s*(\w+)\s*\|\s*\[\w+\]\((https:\/\/github\.com\/[^\/]+)\)\s*\|\s*\[README\]\((https:\/\/github\.com\/[^\/]+\/[^\/]+)\)/g;
-    const regex = /\|\s*([\w-]+)\s*\|\s*([\w-]+)\s*\|\s*\[[\w-]+\]\((https:\/\/github\.com\/[^\/]+)\)\s*\|\s*\[README\]\((https:\/\/github\.com\/[^\/]+\/[^\/]+)\)/g;
-    let match;
-    let users = [];
+    // Regular expression to parse a markdown table row
+    // \|\s* matches a '|' character followed by zero or more whitespace characters
+    // \[([^\]]+)\] matches a '[' character, followed by one or more characters that are not ']', followed by a ']' character. This captures the page name
+    // \(([^)]+)\) matches a '(' character, followed by one or more characters that are not ')', followed by a ')' character. This captures the URL
+    // ([^|]+) matches one or more characters that are not '|'. This captures the hashtags
+    // g at the end is a flag that enables "global" search, meaning the regular expression will find all matches rather than stopping after the first match
+    const tableRowRegex = /\|\s*\[([^\]]+)\]\(([^)]+)\)\s*\|\s*([^|]+)\s*\|/g;
 
-    console.log(regex);
-    // Loop through the matches and push the user data to the users array
-    while ((match = regex.exec(data)) !== null) {
-        const profileName = match[3].split('/').pop();
-        users.push({
+
+    let match;
+    let dataObjects = [];
+
+
+
+    while ((match = tableRowRegex.exec(data)) !== null) {
+        const companyName = match[1];
+        const url = match[2];
+        const tags = match[3].split(';').map(tag => tag.trim().replace('#', '')); // Split the hashtags string into an array, trim whitespace, remove the '#' character
+
+        console.log(`Name: ${name}`);
+        console.log(`URL: ${url}`);
+        console.log(`Tags: ${tags}`);
+
+
+        
+
+
+        dataObjects.push({
             timestamp: new Date().toISOString(),
-            firstName: match[1],
-            lastName: match[2],
-            githubProfile: match[3],
-            githubReadme: match[4],
-            screenshotPath: `screenshots/${profileName}.jpeg`
+            url,
+            companyName,
+            screenshotPath: `screenshots/${name}.jpeg`,
+            tags,
+            stack: [],
+            timeToPageLoad: 0,
+            timeToDOMLoad: 0,
+            timeToInteractive: 0,
         });
     }
 
     const json = JSON.stringify(users, null, 2);
-    console.log(json);
-
+    //console.log(json);
+    /*
     // Read the file specified by dataFilePath
     fs.readFile(dataFilePath, 'utf8', (err, data) => {
 
@@ -68,6 +88,6 @@ fs.readFile(filePath, 'utf8', (err, data) => {
             }
             // Log a success message
             console.log('Data written to file');
-        });
-    });
+        }); 
+    }); */
 });
