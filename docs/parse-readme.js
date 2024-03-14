@@ -41,13 +41,16 @@ const getMetaDescription = async (page) => {
 }
 
 
-const getWebsiteStack = await page.evaluate(() => {
-
+const getWebsiteStack = async (page) => {
+    return page.evaluate(() => {
     if (!!window.React ||
         !!document.querySelector('[data-reactroot], [data-reactid]') ||
         Array.from(document.querySelectorAll('*')).some(e => e._reactRootContainer !== undefined || Object.keys(e).some(k => k.startsWith('__reactContainer')))
     )
         return 'React';
+
+    if(!!window.jQuery)
+        return 'jQuery';
 
     if (!!document.querySelector('script[id=__NEXT_DATA__]'))
         return 'Next.js';
@@ -76,7 +79,8 @@ const getWebsiteStack = await page.evaluate(() => {
 
     if(!!window.Nuxt || !!window.__NUXT__)
         return 'Nuxt.js';
-});
+    });
+}
 
 //fs.readFile(filePath, 'utf8', async function (err, data) {
 const processFile = async (filePath) => {
@@ -110,15 +114,15 @@ const processFile = async (filePath) => {
             companyName,
             screenshotPath: `screenshots/${companyName.replace(/\s/g, '')}.jpeg`,
             tags,
-            stack: [],
+            stack: websiteStack,
             timeToPageLoad
         };
         console.log(dataObject);
         dataObjects.push(dataObject);
     }
 
-    const json = JSON.stringify(dataObjects, null, 2);
-    console.log(json);
+    //const json = JSON.stringify(dataObjects, null, 2);
+    //console.log(json);
 }
 
 processFile(filePath);
