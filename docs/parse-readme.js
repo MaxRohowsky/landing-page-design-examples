@@ -79,9 +79,27 @@ const getWebsiteStack = async (page) => {
 
         if (!!window.Nuxt || !!window.__NUXT__)
             return 'Nuxt.js';
+            
+        return ''; 
     });
 }
 
+const updateDataFile = async (dataObjects) => {
+    const dataFilePath = path.join(__dirname, 'data.json');
+    let existingData;
+
+    try {
+        existingData = JSON.parse(await fs.readFile(dataFilePath, 'utf8'));
+    } catch (error) {
+        existingData = [];
+    }
+
+    const newData = dataObjects.filter(dataObject => 
+        !existingData.some(existingObject => existingObject.companyName === dataObject.companyName)
+    );
+
+    await fs.writeFile(dataFilePath, JSON.stringify([...existingData, ...newData], null, 2));
+}
 
 const processFile = async (filePath) => {
 
@@ -89,6 +107,7 @@ const processFile = async (filePath) => {
     const browser = await puppeteer.launch();
     const tableRowRegex = /\|\s*\[([^\]]+)\]\(([^)]+)\)\s*\|\s*([^|]+)\s*\|/g;
     let dataObjects = [];
+    let match;
 
     while ((match = tableRowRegex.exec(data)) !== null) {
 
@@ -108,18 +127,20 @@ const processFile = async (filePath) => {
 
         const dataObject = {
             timestamp: new Date().toISOString(),
-            title,
-            url,
-            companyName,
+            title: title,
+            url: url,
+            companyName: companyName,
             screenshotPath: `screenshots/${companyName.replace(/\s/g, '')}.jpeg`,
-            tags,
+            tags: tags,
             stack: websiteStack,
-            timeToPageLoad
+            timeToPageLoad: Math.round(timeToPageLoad),
         };
         console.log(dataObject);
         dataObjects.push(dataObject);
     }
     await browser.close(); 
+
+    await updateDataFile(dataObjects);
 
     //const json = JSON.stringify(dataObjects, null, 2);
     //console.log(json);
@@ -137,16 +158,16 @@ fs.readFile(dataFilePath, 'utf8', (err, data) => {
         return;
     }
 
-    // Initialize an array to hold the existing users
-    let existingUsers = [];
+    // Initialize an array to hold the existing data objects
+    let existingDataObjects = [];
 
-    // If the file has data, parse it as JSON and assign it to existingUsers
+    // If the file has data, parse the data into an array
     if (data) {
-        existingUsers = JSON.parse(data);
+        existingDataObjects = JSON.parse(data);
     }
 
     // Filter out the users that already exist in the data file
-    const newUsers = users.filter(user => !existingUsers.some(existingUser => existingUser.githubProfile === user.githubProfile));
+    const newDataObjects = users.filter(user => !existingUsers.some(existingUser => existingUser.githubProfile === user.githubProfile));
 
     // Combine the existing users and the new users
     const allUsers = [...existingUsers, ...newUsers];
@@ -165,5 +186,5 @@ fs.readFile(dataFilePath, 'utf8', (err, data) => {
         // Log a success message
         console.log('Data written to file');
     });
-}); */
-//});
+});
+*/

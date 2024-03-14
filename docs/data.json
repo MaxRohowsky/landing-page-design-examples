@@ -1,10 +1,130 @@
 [
   {
-    "timestamp": "2024-03-09T22:57:11.586Z",
-    "firstName": "Ad42sw2am",
-    "lastName": "Alst4ws2on",
-    "githubProfile": "https://vuejs.org/",
-    "githubReadme": "https://vuejs.org/",
-    "screenshotPath": "screenshots/6s.jpeg"
+    "timestamp": "2024-03-14T20:17:31.711Z",
+    "title": "Accelerate the Development of AI Applications | Scale AI",
+    "url": "https://www.scale.ai",
+    "companyName": "Scale",
+    "screenshotPath": "screenshots/Scale.jpeg",
+    "tags": [
+      "startup"
+    ],
+    "stack": "React",
+    "timeToPageLoad": 439
+  },
+  {
+    "timestamp": "2024-03-14T20:17:33.325Z",
+    "title": "The #1 AI Headshot Generator for Professional Headshots",
+    "url": "https://www.headshotpro.com",
+    "companyName": "Head Shot Pro",
+    "screenshotPath": "screenshots/HeadShotPro.jpeg",
+    "tags": [
+      "startup"
+    ],
+    "stack": "Nuxt.js",
+    "timeToPageLoad": 41
+  },
+  {
+    "timestamp": "2024-03-14T20:17:34.118Z",
+    "title": "Airbnb | Vacation rentals, cabins, beach houses, & more",
+    "url": "https://www.airbnb.com",
+    "companyName": "Airbnb",
+    "screenshotPath": "screenshots/Airbnb.jpeg",
+    "tags": [
+      "travel",
+      "rental"
+    ],
+    "stack": "React",
+    "timeToPageLoad": 462
+  },
+  {
+    "timestamp": "2024-03-14T20:17:34.987Z",
+    "title": "Erziele Umsätze als Fahrer*in oder bestelle jetzt eine Fahrt | Uber Deutschland",
+    "url": "https://www.uber.com",
+    "companyName": "Uber",
+    "screenshotPath": "screenshots/Uber.jpeg",
+    "tags": [
+      "transportation",
+      "ridesharing"
+    ],
+    "stack": "",
+    "timeToPageLoad": 180
+  },
+  {
+    "timestamp": "2024-03-14T20:17:35.580Z",
+    "title": "Google",
+    "url": "https://www.google.com",
+    "companyName": "Google",
+    "screenshotPath": "screenshots/Google.jpeg",
+    "tags": [
+      "search",
+      "technology"
+    ],
+    "stack": "",
+    "timeToPageLoad": 180
+  },
+  {
+    "timestamp": "2024-03-14T20:17:36.056Z",
+    "title": "Facebook - log in or sign up",
+    "url": "https://www.facebook.com",
+    "companyName": "Facebook",
+    "screenshotPath": "screenshots/Facebook.jpeg",
+    "tags": [
+      "socialmedia",
+      "networking"
+    ],
+    "stack": "",
+    "timeToPageLoad": 144
+  },
+  {
+    "timestamp": "2024-03-14T20:17:37.278Z",
+    "title": "Amazon.com. Spend less. Smile more.",
+    "url": "https://www.amazon.com",
+    "companyName": "Amazon",
+    "screenshotPath": "screenshots/Amazon.jpeg",
+    "tags": [
+      "ecommerce",
+      "retail"
+    ],
+    "stack": "",
+    "timeToPageLoad": 510
+  },
+  {
+    "timestamp": "2024-03-14T20:17:38.943Z",
+    "title": "Netflix - Watch TV Shows Online, Watch Movies Online",
+    "url": "https://www.netflix.com",
+    "companyName": "Netflix",
+    "screenshotPath": "screenshots/Netflix.jpeg",
+    "tags": [
+      "streaming",
+      "entertainment"
+    ],
+    "stack": "React",
+    "timeToPageLoad": 595
+  },
+  {
+    "timestamp": "2024-03-14T20:17:40.770Z",
+    "title": "Spotify - Web Player: Music for everyone",
+    "url": "https://www.spotify.com",
+    "companyName": "Spotify",
+    "screenshotPath": "screenshots/Spotify.jpeg",
+    "tags": [
+      "music",
+      "streaming"
+    ],
+    "stack": "React",
+    "timeToPageLoad": 70
+  },
+  {
+    "timestamp": "2024-03-14T20:17:43.056Z",
+    "title": "Microsoft – Cloud, Computer, Apps und Gaming",
+    "url": "https://www.microsoft.com",
+    "companyName": "Microsoft",
+    "screenshotPath": "screenshots/Microsoft.jpeg",
+    "tags": [
+      "technology",
+      "software"
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 1060
   }
 ]
