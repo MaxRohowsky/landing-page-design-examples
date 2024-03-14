@@ -43,66 +43,65 @@ const getMetaDescription = async (page) => {
 
 const getWebsiteStack = async (page) => {
     return page.evaluate(() => {
-    if (!!window.React ||
-        !!document.querySelector('[data-reactroot], [data-reactid]') ||
-        Array.from(document.querySelectorAll('*')).some(e => e._reactRootContainer !== undefined || Object.keys(e).some(k => k.startsWith('__reactContainer')))
-    )
-        return 'React';
+        if (!!window.React ||
+            !!document.querySelector('[data-reactroot], [data-reactid]') ||
+            Array.from(document.querySelectorAll('*')).some(e => e._reactRootContainer !== undefined || Object.keys(e).some(k => k.startsWith('__reactContainer')))
+        )
+            return 'React';
 
-    if(!!window.jQuery)
-        return 'jQuery';
+        if (!!window.jQuery)
+            return 'jQuery';
 
-    if (!!document.querySelector('script[id=__NEXT_DATA__]'))
-        return 'Next.js';
+        if (!!document.querySelector('script[id=__NEXT_DATA__]'))
+            return 'Next.js';
 
-    if (!!document.querySelector('[id=___gatsby]'))
-        return 'Gatsby.js';
+        if (!!document.querySelector('[id=___gatsby]'))
+            return 'Gatsby.js';
 
-    if (!!window.angular ||
-        !!document.querySelector('.ng-binding, [ng-app], [data-ng-app], [ng-controller], [data-ng-controller], [ng-repeat], [data-ng-repeat]') ||
-        !!document.querySelector('script[src*="angular.js"], script[src*="angular.min.js"]')
-    )
-        return 'AngularJS';
+        if (!!window.angular ||
+            !!document.querySelector('.ng-binding, [ng-app], [data-ng-app], [ng-controller], [data-ng-controller], [ng-repeat], [data-ng-repeat]') ||
+            !!document.querySelector('script[src*="angular.js"], script[src*="angular.min.js"]')
+        )
+            return 'AngularJS';
 
-    if(!!window.__VUE__ || !!window.Vue)
-        return 'Vue.js';
+        if (!!window.__VUE__ || !!window.Vue)
+            return 'Vue.js';
 
-    if (!!window.Backbone) console.log('Backbone.js');
+        if (!!window.Backbone) console.log('Backbone.js');
 
-    if (!!window.Ember) console.log('Ember.js');
+        if (!!window.Ember) console.log('Ember.js');
 
-    if (!!window.Meteor) console.log('Meteor.js');
+        if (!!window.Meteor) console.log('Meteor.js');
 
-    if (!!window.Zepto) console.log('Zepto.js');
+        if (!!window.Zepto) console.log('Zepto.js');
 
-    if (!!window.jQuery) console.log('jQuery.js');
+        if (!!window.jQuery) console.log('jQuery.js');
 
-    if(!!window.Nuxt || !!window.__NUXT__)
-        return 'Nuxt.js';
+        if (!!window.Nuxt || !!window.__NUXT__)
+            return 'Nuxt.js';
     });
 }
 
-//fs.readFile(filePath, 'utf8', async function (err, data) {
+
 const processFile = async (filePath) => {
+
     data = await fs.readFile(filePath, 'utf8');
-
     const browser = await puppeteer.launch();
-
-
-
     const tableRowRegex = /\|\s*\[([^\]]+)\]\(([^)]+)\)\s*\|\s*([^|]+)\s*\|/g;
-    let match;
     let dataObjects = [];
+
     while ((match = tableRowRegex.exec(data)) !== null) {
+
         const { companyName, url, tags } = parseTableRow(match[0]);
-        //const stack = [];
         const page = await browser.newPage();
-        await page.setExtraHTTPHeaders({
-            'Accept-Language': 'en-US,en'
-        });
+
+        await page.setExtraHTTPHeaders({'Accept-Language': 'en-US,en'});
         await page.setViewport({ width: 1280, height: 720 });
         await page.goto(url);
-        //const metaDescription = await getMetaDescription(page);
+
+        //const bodyContent = await page.$eval('body', element => element.innerHTML);
+        //console.log(bodyContent);
+
         const websiteStack = await getWebsiteStack(page);
         const title = await page.title();
         const timeToPageLoad = await getPerformanceMetrics(page);
@@ -120,12 +119,14 @@ const processFile = async (filePath) => {
         console.log(dataObject);
         dataObjects.push(dataObject);
     }
+    await browser.close(); 
 
     //const json = JSON.stringify(dataObjects, null, 2);
     //console.log(json);
 }
 
 processFile(filePath);
+
 /*
 // Read the file specified by dataFilePath
 fs.readFile(dataFilePath, 'utf8', (err, data) => {

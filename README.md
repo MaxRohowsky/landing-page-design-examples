@@ -10,5 +10,3 @@
 | [Facebook](https://www.facebook.com)         | #socialmedia; #networking     |
 | [Amazon](https://www.amazon.com)             | #ecommerce; #retail           |
 | [Netflix](https://www.netflix.com)           | #streaming; #entertainment    |
-| [Spotify](https://www.spotify.com)           | #music; #streaming            |
-| [Microsoft](https://www.microsoft.com)       | #technology; #software        |
