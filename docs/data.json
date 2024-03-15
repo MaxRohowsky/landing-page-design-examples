@@ -126,5 +126,18 @@
     ],
     "stack": "jQuery",
     "timeToPageLoad": 1060
+  },
+  {
+    "timestamp": "2024-03-15T11:27:03.097Z",
+    "title": "GitHub: Let’s build from here · GitHub",
+    "url": "https://www.github.com",
+    "companyName": "Github",
+    "screenshotPath": "screenshots/Github.jpeg",
+    "tags": [
+      "technology",
+      "software"
+    ],
+    "stack": "React",
+    "timeToPageLoad": 51
   }
 ]

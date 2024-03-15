@@ -12,3 +12,4 @@
 | [Netflix](https://www.netflix.com)           | #streaming; #entertainment    |
 | [Spotify](https://www.spotify.com)           | #music; #streaming            |
 | [Microsoft](https://www.microsoft.com)       | #technology; #software        |
+| [Github](https://www.github.com)       | #technology; #software        |
