@@ -6,7 +6,10 @@
     "companyName": "Scale",
     "screenshotPath": "screenshots/Scale.jpeg",
     "tags": [
-      "startup"
+      "startup", 
+      "bootstrap",
+      "technology",
+      "software"
     ],
     "stack": "React",
     "timeToPageLoad": 439
