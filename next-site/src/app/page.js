@@ -41,6 +41,23 @@ function Card({ item }) {
 
 export default function Home() {
     const [data, setData] = useState([]);
+    const [selectedTags, setSelectedTags] = useState([]);
+
+    const handleTagClick = (tag) => {
+        setSelectedTags(prevTags => {
+            if (prevTags.includes(tag)) {
+                // Remove tag from selected tags
+                return prevTags.filter(t => t !== tag);
+            } else {
+                // Add tag to selected tags
+                return [...prevTags, tag];
+            }
+        });
+    };
+
+    const resetFilters = () => {
+        setSelectedTags([]);
+    };
 
     useEffect(() => {
         const fetchData = async () => {
@@ -53,26 +70,40 @@ export default function Home() {
     }, []);
 
     return (
-        <main className="flex min-h-screen flex-col  p-1">
-            <div className="h-[550px] bg-gray-200 relative">
+        <main className="flex min-h-screen flex-col">
+            <div className="h-[600px] bg-gray-200 relative">
                 <Image
                     src="/panoramic.png"
                     layout="fill"
                     objectFit="cover"
                     alt="Hero Image"
                 ></Image>
-                <div className="absolute inset-0 bg-gradient-to-b from-[rgba(0,0,0,0.9)] via-[rgba(0,0,0,0.2)] to-[rgba(0,0,0,0.9)]">
+                <div className="absolute inset-0 bg-gradient-to-b from-[rgba(0,0,0,0.9)] via-[rgba(0,0,0,0.65)] to-[rgba(0,0,0,0.8)]">
                 </div>
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
                     <h1 className="text-4xl font-bold">Discover the web's best Landing Pages</h1>
                     <p className="mt-4 text-xl">This Site features the best landing page designs on the web! Learn from the best and get inspiration from real landing page examples.</p>
                 </div>
             </div>
+ <div className="flex justify-center my-4">
+                {['startup', 'bootstrap', 'vc'].map((tag) => (
+                    <button
+                        key={tag}
+                        onClick={() => handleTagClick(tag)}
+                        className={`px-4 py-2 m-1 border rounded ${selectedTags.includes(tag) ? 'bg-blue-500 text-white' : ''}`}
+                    >
+                        {tag}
+                    </button>
+                ))}
+                <button onClick={resetFilters} className="px-4 py-2 m-1 border rounded bg-red-500 text-white">
+                    Reset Filters
+                </button>
+            </div>
             <div className="items-start z-10 w-full flex-wrap gap-4 justify-center text-sm lg:flex">
-            {data.map((item, index) => (
-                <Card key={index} item={item} />
-            ))}
-        </div>
+                {data.filter(item => selectedTags.length === 0 || selectedTags.every(tag => item.tags.includes(tag))).map((item, index) => (
+                    <Card key={index} item={item} />
+                ))}
+            </div>
         </main>
     );
 }
