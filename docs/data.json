@@ -324,7 +324,10 @@
     "companyName": "wope",
     "screenshotPath": "screenshots/Wope.jpeg",
     "tags": [
-      ""
+      "galaxy",
+      "dark",
+      "technology",
+      "pro"
     ],
     "stack": "",
     "timeToPageLoad": 472
@@ -336,7 +339,9 @@
     "companyName": "dragapp",
     "screenshotPath": "screenshots/Dragapp.jpeg",
     "tags": [
-      ""
+      "light",
+      "easy",
+      "happy"
     ],
     "stack": "",
     "timeToPageLoad": 4679
@@ -348,7 +353,9 @@
     "companyName": "happy.tools",
     "screenshotPath": "screenshots/Happytools.jpeg",
     "tags": [
-      ""
+      "happy",
+      "colorful",
+      "productivity"
     ],
     "stack": "jQuery",
     "timeToPageLoad": 34
@@ -360,7 +367,10 @@
     "companyName": "priceintelligently",
     "screenshotPath": "screenshots/Priceintelligently.jpeg",
     "tags": [
-      ""
+      "marketing",
+      "sales",
+      "dark",
+      "formal"
     ],
     "stack": "React",
     "timeToPageLoad": 60
@@ -372,7 +382,9 @@
     "companyName": "dataprovider",
     "screenshotPath": "screenshots/Dataprovider.jpeg",
     "tags": [
-      ""
+      "easy",
+      "technology",
+      "light"
     ],
     "stack": "React",
     "timeToPageLoad": 175
@@ -384,7 +396,11 @@
     "companyName": "ascendindiana",
     "screenshotPath": "screenshots/Ascendindiana.jpeg",
     "tags": [
-      ""
+      "recruiting",
+      "corporate",
+      "formal",
+      "light",
+      "easy"
     ],
     "stack": "",
     "timeToPageLoad": 206
@@ -396,7 +412,10 @@
     "companyName": "indinero",
     "screenshotPath": "screenshots/Indinero.jpeg",
     "tags": [
-      ""
+      "finance",
+      "corporate",
+      "scaleup",
+      "colorful"
     ],
     "stack": "",
     "timeToPageLoad": 252
@@ -408,7 +427,9 @@
     "companyName": "gigster",
     "screenshotPath": "screenshots/Gigster.jpeg",
     "tags": [
-      ""
+      "formal",
+      "light",
+      "technology"
     ],
     "stack": "jQuery",
     "timeToPageLoad": 924
@@ -420,7 +441,10 @@
     "companyName": "klientboost",
     "screenshotPath": "screenshots/Klientboost.jpeg",
     "tags": [
-      ""
+      "marketing",
+      "happy",
+      "easy",
+      "colorful"
     ],
     "stack": "Gatsby.js",
     "timeToPageLoad": 38
@@ -432,7 +456,9 @@
     "companyName": "pixeltrue",
     "screenshotPath": "screenshots/Pixeltrue.jpeg",
     "tags": [
-      ""
+      "design",
+      "cartoons",
+      "dark"
     ],
     "stack": "jQuery",
     "timeToPageLoad": 86
@@ -444,7 +470,9 @@
     "companyName": "unbounce",
     "screenshotPath": "screenshots/Unbounce.jpeg",
     "tags": [
-      ""
+      "easy",
+      "light",
+      "sales"
     ],
     "stack": "jQuery",
     "timeToPageLoad": 448
@@ -456,7 +484,11 @@
     "companyName": "getastra",
     "screenshotPath": "screenshots/Getastra.jpeg",
     "tags": [
-      ""
+      "cartoons",
+      "colorful",
+      "light",
+      "technology",
+      "corporate"
     ],
     "stack": "",
     "timeToPageLoad": 39
@@ -468,7 +500,10 @@
     "companyName": "kloudmate",
     "screenshotPath": "screenshots/Kloudmate.jpeg",
     "tags": [
-      ""
+      "technology",
+      "dark",
+      "colorful",
+      "formal"
     ],
     "stack": "React",
     "timeToPageLoad": 73
@@ -480,7 +515,11 @@
     "companyName": "taskade",
     "screenshotPath": "screenshots/Taskade.jpeg",
     "tags": [
-      ""
+      "ai",
+      "technology",
+      "dark",
+      "galaxy",
+      "pro"
     ],
     "stack": "React",
     "timeToPageLoad": 808
@@ -492,7 +531,10 @@
     "companyName": "nightwatch",
     "screenshotPath": "screenshots/Nightwatch.jpeg",
     "tags": [
-      ""
+      "marketing",
+      "dark",
+      "technology",
+      "formal"
     ],
     "stack": "jQuery",
     "timeToPageLoad": 78
@@ -504,7 +546,11 @@
     "companyName": "updiagram",
     "screenshotPath": "screenshots/Updiagram.jpeg",
     "tags": [
-      ""
+      "light",
+      "cartoons",
+      "corporate",
+      "productivity",
+      "easy"
     ],
     "stack": "jQuery",
     "timeToPageLoad": 799
@@ -516,7 +562,9 @@
     "companyName": "dropbase",
     "screenshotPath": "screenshots/Dropbase.jpeg",
     "tags": [
-      ""
+      "technology",
+      "dark",
+      "formal"
     ],
     "stack": "jQuery",
     "timeToPageLoad": 77
@@ -528,7 +576,9 @@
     "companyName": "productboard",
     "screenshotPath": "screenshots/Productboard.jpeg",
     "tags": [
-      ""
+      "productivity",
+      "light",
+      "colorful"
     ],
     "stack": "jQuery",
     "timeToPageLoad": 902
@@ -540,7 +590,10 @@
     "companyName": "churnbuster",
     "screenshotPath": "screenshots/Churnbuster.jpeg",
     "tags": [
-      ""
+      "formal",
+      "light",
+      "sales",
+      "easy"
     ],
     "stack": "jQuery",
     "timeToPageLoad": 78
@@ -552,7 +605,11 @@
     "companyName": "magic",
     "screenshotPath": "screenshots/Magic.jpeg",
     "tags": [
-      ""
+      "finance",
+      "galaxy",
+      "dark",
+      "colorful",
+      "pro"
     ],
     "stack": "React",
     "timeToPageLoad": 165
@@ -564,7 +621,10 @@
     "companyName": "messagebird",
     "screenshotPath": "screenshots/Messagebird.jpeg",
     "tags": [
-      ""
+      "dark",
+      "formal",
+      "marketing",
+      "sales"
     ],
     "stack": "React",
     "timeToPageLoad": 220
@@ -576,7 +636,8 @@
     "companyName": "qwilr",
     "screenshotPath": "screenshots/Qwilr.jpeg",
     "tags": [
-      ""
+      "sales",
+      "colorful"
     ],
     "stack": "",
     "timeToPageLoad": 390
@@ -588,7 +649,10 @@
     "companyName": "planable",
     "screenshotPath": "screenshots/Planable.jpeg",
     "tags": [
-      ""
+      "happy",
+      "colorful",
+      "light",
+      "productivity"
     ],
     "stack": "jQuery",
     "timeToPageLoad": 144
@@ -600,22 +664,12 @@
     "companyName": "plaid",
     "screenshotPath": "screenshots/Plaid.jpeg",
     "tags": [
-      ""
+      "finance",
+      "cartoons",
+      "light"
     ],
     "stack": "React",
     "timeToPageLoad": 41
-  },
-  {
-    "timestamp": "2024-03-17T18:53:07.393Z",
-    "title": "The domain name Tasman.io is for sale",
-    "url": "https://www.tasman.io",
-    "companyName": "tasman",
-    "screenshotPath": "screenshots/Tasman.jpeg",
-    "tags": [
-      ""
-    ],
-    "stack": "React",
-    "timeToPageLoad": 293
   },
   {
     "timestamp": "2024-03-17T18:53:09.048Z",
@@ -624,7 +678,10 @@
     "companyName": "litmus",
     "screenshotPath": "screenshots/Litmus.jpeg",
     "tags": [
-      ""
+      "light",
+      "marketing",
+      "colorful",
+      "happy"
     ],
     "stack": "jQuery",
     "timeToPageLoad": 32
@@ -636,7 +693,9 @@
     "companyName": "sumo",
     "screenshotPath": "screenshots/Sumo.jpeg",
     "tags": [
-      ""
+      "marketing",
+      "light",
+      "formal"
     ],
     "stack": "jQuery",
     "timeToPageLoad": 591
@@ -648,7 +707,9 @@
     "companyName": "memsql",
     "screenshotPath": "screenshots/Memsql.jpeg",
     "tags": [
-      ""
+      "ai",
+      "formal",
+      "technology"
     ],
     "stack": "Gatsby.js",
     "timeToPageLoad": 56
@@ -660,7 +721,9 @@
     "companyName": "heapanalytics",
     "screenshotPath": "screenshots/Heapanalytics.jpeg",
     "tags": [
-      ""
+      "colorful",
+      "formal",
+      "technology"
     ],
     "stack": "React",
     "timeToPageLoad": 79
@@ -672,7 +735,9 @@
     "companyName": "segment",
     "screenshotPath": "screenshots/Segment.jpeg",
     "tags": [
-      ""
+      "easy",
+      "technology",
+      "ai"
     ],
     "stack": "React",
     "timeToPageLoad": 1151
@@ -684,7 +749,8 @@
     "companyName": "algolia",
     "screenshotPath": "screenshots/Algolia.jpeg",
     "tags": [
-      ""
+      "ai",
+      "technology"
     ],
     "stack": "React",
     "timeToPageLoad": 368
@@ -728,11 +794,14 @@
   {
     "timestamp": "2024-03-17T18:55:36.836Z",
     "title": "Whoops - Conversica - Powerfully Human - Revenue Digital Assistants",
-    "url": "https://info.conversica.com",
-    "companyName": "info.conversica.com",
+    "url": "https://www.conversica.com",
+    "companyName": "Conversica",
     "screenshotPath": "screenshots/Conversica.jpeg",
     "tags": [
-      ""
+      "colorful",
+      "ai",
+      "cartoons",
+      "happy"
     ],
     "stack": "",
     "timeToPageLoad": 229
@@ -744,7 +813,9 @@
     "companyName": "patientpop",
     "screenshotPath": "screenshots/Patientpop.jpeg",
     "tags": [
-      ""
+      "light", 
+      "colorful",
+      "marketing"
     ],
     "stack": "jQuery",
     "timeToPageLoad": 14
@@ -756,7 +827,8 @@
     "companyName": "shopify",
     "screenshotPath": "screenshots/Shopify.jpeg",
     "tags": [
-      ""
+      "ecommerce",
+      "light"
     ],
     "stack": "",
     "timeToPageLoad": 441
@@ -768,7 +840,10 @@
     "companyName": "dropbox",
     "screenshotPath": "screenshots/Dropbox.jpeg",
     "tags": [
-      ""
+      "productivity",
+      "scaleup",
+      "formal",
+      "dark"
     ],
     "stack": "React",
     "timeToPageLoad": 979
@@ -780,7 +855,10 @@
     "companyName": "reflect.app",
     "screenshotPath": "screenshots/Reflect.jpeg",
     "tags": [
-      ""
+      "galaxy",
+      "dark",
+      "pro",
+      "productivity"
     ],
     "stack": "",
     "timeToPageLoad": 72
@@ -792,7 +870,10 @@
     "companyName": "csspro",
     "screenshotPath": "screenshots/Csspro.jpeg",
     "tags": [
-      ""
+      "pro",
+      "galaxy",
+      "dark",
+      "design"
     ],
     "stack": "jQuery",
     "timeToPageLoad": 41
@@ -804,7 +885,9 @@
     "companyName": "cdbaby",
     "screenshotPath": "screenshots/Cdbaby.jpeg",
     "tags": [
-      ""
+      "entertainment",
+      "colorful",
+      "easy"
     ],
     "stack": "jQuery",
     "timeToPageLoad": 217
@@ -816,7 +899,9 @@
     "companyName": "doordash",
     "screenshotPath": "screenshots/Doordash.jpeg",
     "tags": [
-      ""
+      "transport",
+      "scaleup",
+      "light"
     ],
     "stack": "",
     "timeToPageLoad": 24
@@ -828,7 +913,10 @@
     "companyName": "cocovillage",
     "screenshotPath": "screenshots/Cocovillage.jpeg",
     "tags": [
-      ""
+      "ecommerce",
+      "colorful",
+      "happy",
+      "light"
     ],
     "stack": "jQuery",
     "timeToPageLoad": 1533
@@ -840,7 +928,9 @@
     "companyName": "branchfurniture",
     "screenshotPath": "screenshots/Branchfurniture.jpeg",
     "tags": [
-      ""
+      "ecommerce",
+      "happy",
+      "colorful"
     ],
     "stack": "jQuery",
     "timeToPageLoad": 666
@@ -852,7 +942,9 @@
     "companyName": "athabascau",
     "screenshotPath": "screenshots/Athabascau.jpeg",
     "tags": [
-      ""
+      "education",
+      "formal",
+      "light"
     ],
     "stack": "jQuery",
     "timeToPageLoad": 46
@@ -864,7 +956,9 @@
     "companyName": "blueforestfarms",
     "screenshotPath": "screenshots/Blueforestfarms.jpeg",
     "tags": [
-      ""
+      "easy",
+      "light",
+      "ecommerce"
     ],
     "stack": "jQuery",
     "timeToPageLoad": 707
@@ -876,7 +970,9 @@
     "companyName": "borderbuddy",
     "screenshotPath": "screenshots/Borderbuddy.jpeg",
     "tags": [
-      ""
+      "transport",
+      "formal",
+      "light"
     ],
     "stack": "jQuery",
     "timeToPageLoad": 79
@@ -888,7 +984,10 @@
     "companyName": "conversionlab",
     "screenshotPath": "screenshots/Conversionlab.jpeg",
     "tags": [
-      ""
+      "formal",
+      "light",
+      "sales",
+      "marketing"
     ],
     "stack": "jQuery",
     "timeToPageLoad": 859
@@ -900,7 +999,11 @@
     "companyName": "classcreator.io",
     "screenshotPath": "screenshots/Classcreator.jpeg",
     "tags": [
-      ""
+      "education",
+      "colorful",
+      "happy",
+      "light",
+      "easy"
     ],
     "stack": "",
     "timeToPageLoad": 117
@@ -912,7 +1015,9 @@
     "companyName": "homeloangurus",
     "screenshotPath": "screenshots/Homeloangurus.jpeg",
     "tags": [
-      ""
+      "finance",
+      "corporate",
+      "formal"
     ],
     "stack": "React",
     "timeToPageLoad": 86
@@ -924,7 +1029,8 @@
     "companyName": "jetpetresort",
     "screenshotPath": "screenshots/Jetpetresort.jpeg",
     "tags": [
-      ""
+      "light",
+      "happy"
     ],
     "stack": "jQuery",
     "timeToPageLoad": 506
@@ -936,7 +1042,9 @@
     "companyName": "mooala",
     "screenshotPath": "screenshots/Mooala.jpeg",
     "tags": [
-      ""
+      "ecommerce",
+      "easy",
+      "colorful"
     ],
     "stack": "",
     "timeToPageLoad": 565
@@ -948,7 +1056,10 @@
     "companyName": "panda7",
     "screenshotPath": "screenshots/Panda7.jpeg",
     "tags": [
-      ""
+      "finance",
+      "cartoons",
+      "light",
+      "happy"
     ],
     "stack": "jQuery",
     "timeToPageLoad": 407
@@ -960,7 +1071,9 @@
     "companyName": "perfectketo",
     "screenshotPath": "screenshots/Perfectketo.jpeg",
     "tags": [
-      ""
+      "ecommerce",
+      "colorful",
+      "happy"
     ],
     "stack": "",
     "timeToPageLoad": 36
@@ -972,7 +1085,9 @@
     "companyName": "sundae",
     "screenshotPath": "screenshots/Sundae.jpeg",
     "tags": [
-      ""
+      "formal",
+      "light",
+      "sales"
     ],
     "stack": "jQuery",
     "timeToPageLoad": 950
@@ -984,7 +1099,10 @@
     "companyName": "wavehuggers",
     "screenshotPath": "screenshots/Wavehuggers.jpeg",
     "tags": [
-      ""
+      "education",
+      "travel",
+      "happy",
+      "colorful"
     ],
     "stack": "jQuery",
     "timeToPageLoad": 953
@@ -996,7 +1114,10 @@
     "companyName": "woolx",
     "screenshotPath": "screenshots/Woolx.jpeg",
     "tags": [
-      ""
+      "easy",
+      "colorful",
+      "happy",
+      "ecommerce"
     ],
     "stack": "jQuery",
     "timeToPageLoad": 487
@@ -1008,7 +1129,9 @@
     "companyName": "mailchimp",
     "screenshotPath": "screenshots/Mailchimp.jpeg",
     "tags": [
-      ""
+      "marketing",
+      "light",
+      "easy"
     ],
     "stack": "React",
     "timeToPageLoad": 1080

@@ -28,7 +28,7 @@ Pro: Easy, Pro
 
 Stage: Startup, Scaleup, Corporate
 
-Other: Finance, AI, Marketing, Sales, Recruiting, Transport, eCommerce, Social, Design, Education, Travel, Entertainment, Technology
+Other: Finance, AI, Marketing, Sales, Recruiting, Transport, eCommerce, Social, Design, Education, Travel, Entertainment, Technology, productivity
 
 
 
