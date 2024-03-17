@@ -762,7 +762,9 @@
     "companyName": "getballpark",
     "screenshotPath": "screenshots/Getballpark.jpeg",
     "tags": [
-      ""
+      "finance",
+      "dark",
+      "formal"
     ],
     "stack": "jQuery",
     "timeToPageLoad": 258
@@ -774,7 +776,9 @@
     "companyName": "apollo.io",
     "screenshotPath": "screenshots/Apollo.jpeg",
     "tags": [
-      ""
+      "colorful",
+      "formal",
+      "sales"
     ],
     "stack": "React",
     "timeToPageLoad": 101
@@ -786,7 +790,10 @@
     "companyName": "twilio",
     "screenshotPath": "screenshots/Twilio.jpeg",
     "tags": [
-      ""
+      "social",
+      "technology",
+      "scaleup",
+      "easy"
     ],
     "stack": "jQuery",
     "timeToPageLoad": 92
