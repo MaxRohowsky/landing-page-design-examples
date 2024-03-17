@@ -28,7 +28,7 @@ jobs:
         run: echo "Hello World"
 
       - name: Run parse-markdown
-        run: run docs/parse-readme.js
+        run: node docs/parse-readme.js
 
       - name: Commit and push if changed
         uses: EndBug/add-and-commit@v4
