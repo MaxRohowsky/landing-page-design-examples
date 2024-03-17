@@ -387,18 +387,6 @@
     "timeToPageLoad": 86
   },
   {
-    "timestamp": "2024-03-17T18:49:49.874Z",
-    "title": "Access to this page has been denied",
-    "url": "https://www.neverbounce.com",
-    "companyName": "neverbounce",
-    "screenshotPath": "screenshots/Neverbounce.jpeg",
-    "tags": [
-      ""
-    ],
-    "stack": "",
-    "timeToPageLoad": 130
-  },
-  {
     "timestamp": "2024-03-17T18:49:52.577Z",
     "title": "Unbounce - The Landing Page Builder & Platform",
     "url": "https://www.unbounce.com",
@@ -577,18 +565,6 @@
     ],
     "stack": "React",
     "timeToPageLoad": 293
-  },
-  {
-    "timestamp": "2024-03-17T18:53:07.523Z",
-    "title": "ERROR: The request could not be satisfied",
-    "url": "https://www.freshdesk.com",
-    "companyName": "freshdesk",
-    "screenshotPath": "screenshots/Freshdesk.jpeg",
-    "tags": [
-      ""
-    ],
-    "stack": "",
-    "timeToPageLoad": 17
   },
   {
     "timestamp": "2024-03-17T18:53:09.048Z",
