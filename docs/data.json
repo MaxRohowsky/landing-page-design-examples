@@ -6,7 +6,7 @@
     "companyName": "Scale",
     "screenshotPath": "screenshots/Scale.jpeg",
     "tags": [
-      "startup", 
+      "startup",
       "bootstrap",
       "technology",
       "software"
@@ -118,19 +118,6 @@
     "timeToPageLoad": 70
   },
   {
-    "timestamp": "2024-03-14T20:17:43.056Z",
-    "title": "Microsoft – Cloud, Computer, Apps und Gaming",
-    "url": "https://www.microsoft.com",
-    "companyName": "Microsoft",
-    "screenshotPath": "screenshots/Microsoft.jpeg",
-    "tags": [
-      "technology",
-      "software"
-    ],
-    "stack": "jQuery",
-    "timeToPageLoad": 1060
-  },
-  {
     "timestamp": "2024-03-15T11:27:03.097Z",
     "title": "GitHub: Let’s build from here · GitHub",
     "url": "https://www.github.com",
@@ -142,5 +129,18 @@
     ],
     "stack": "React",
     "timeToPageLoad": 51
+  },
+  {
+    "timestamp": "2024-03-17T14:34:25.702Z",
+    "title": "Microsoft – Cloud, Computer, Apps und Gaming",
+    "url": "https://www.microsoft.com",
+    "companyName": "Microsoft",
+    "screenshotPath": "screenshots/Microsoft.jpeg",
+    "tags": [
+      "technology",
+      "software"
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 780
   }
 ]

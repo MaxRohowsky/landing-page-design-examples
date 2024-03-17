@@ -6,10 +6,11 @@ export default function Filters({ selectedTags, handleTagClick, resetFilters }) 
         let startX;
         let scrollLeft;
         
-        const slider = document.querySelector('.custom-scrollbar');
+        const slider = document.querySelector('.filter-scrollbar');
         
         if (slider) {
             slider.addEventListener('mousedown', (e) => {
+                console.log('mousedown');
                 isDown = true;
                 startX = e.pageX - slider.offsetLeft;
                 scrollLeft = slider.scrollLeft;

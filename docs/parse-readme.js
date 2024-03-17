@@ -1,7 +1,7 @@
 const fs = require('fs').promises;
+const fsSync = require('fs');
 const path = require('path');
-const filePath = path.join(__dirname, '..', 'README.md');
-const dataFilePath = path.join(__dirname, 'data.json');
+const filePath = path.join(__dirname, '..', 'companies.md');
 const puppeteer = require('puppeteer');
 
 
@@ -12,15 +12,6 @@ const parseTableRow = (row) => {
     const url = match[2];
     const tags = match[3].split(';').map(tag => tag.trim().replace('#', ''));
     return { companyName, url, tags };
-};
-
-const getH1Content = async (page) => {
-    try {
-        return await page.$eval('h1', element => element.textContent);
-    } catch (error) {
-        console.log('No h1 element found');
-        return '';
-    }
 };
 
 const getPerformanceMetrics = async (page) => {
@@ -79,8 +70,8 @@ const getWebsiteStack = async (page) => {
 
         if (!!window.Nuxt || !!window.__NUXT__)
             return 'Nuxt.js';
-            
-        return ''; 
+
+        return '';
     });
 }
 
@@ -94,12 +85,14 @@ const updateDataFile = async (dataObjects) => {
         existingData = [];
     }
 
-    const newData = dataObjects.filter(dataObject => 
+    const newData = dataObjects.filter(dataObject =>
         !existingData.some(existingObject => existingObject.companyName === dataObject.companyName)
     );
 
     await fs.writeFile(dataFilePath, JSON.stringify([...existingData, ...newData], null, 2));
 }
+
+
 
 const processFile = async (filePath) => {
 
@@ -109,17 +102,26 @@ const processFile = async (filePath) => {
     let dataObjects = [];
     let match;
 
+    // Read the file
+    const dataJSON = fsSync.readFileSync(path.join(__dirname, 'data.json'), 'utf8');
+    // Parse the JSON string into an object
+    const dataJSONArray = JSON.parse(dataJSON);
+
+
     while ((match = tableRowRegex.exec(data)) !== null) {
 
         const { companyName, url, tags } = parseTableRow(match[0]);
+
+        if (dataJSONArray.some(entry => entry.companyName === companyName)) {
+            console.log(`DataObject already exists for ${companyName}, skipping.`);
+            continue;
+        }
+
         const page = await browser.newPage();
 
-        await page.setExtraHTTPHeaders({'Accept-Language': 'en-US,en'});
+        await page.setExtraHTTPHeaders({ 'Accept-Language': 'en-US,en' });
         await page.setViewport({ width: 1280, height: 720 });
         await page.goto(url);
-
-        //const bodyContent = await page.$eval('body', element => element.innerHTML);
-        //console.log(bodyContent);
 
         const websiteStack = await getWebsiteStack(page);
         const title = await page.title();
@@ -138,7 +140,7 @@ const processFile = async (filePath) => {
         console.log(dataObject);
         dataObjects.push(dataObject);
     }
-    await browser.close(); 
+    await browser.close();
 
     await updateDataFile(dataObjects);
 
@@ -148,43 +150,3 @@ const processFile = async (filePath) => {
 
 processFile(filePath);
 
-/*
-// Read the file specified by dataFilePath
-fs.readFile(dataFilePath, 'utf8', (err, data) => {
-
-    // If there's an error reading the file, log the error and exit
-    if (err) {
-        console.error(err);
-        return;
-    }
-
-    // Initialize an array to hold the existing data objects
-    let existingDataObjects = [];
-
-    // If the file has data, parse the data into an array
-    if (data) {
-        existingDataObjects = JSON.parse(data);
-    }
-
-    // Filter out the users that already exist in the data file
-    const newDataObjects = users.filter(user => !existingUsers.some(existingUser => existingUser.githubProfile === user.githubProfile));
-
-    // Combine the existing users and the new users
-    const allUsers = [...existingUsers, ...newUsers];
-
-    // Convert the allUsers array into a JSON string with a 2-space indentation
-    const json = JSON.stringify(allUsers, null, 2);
-
-    // Write the JSON string to the same file
-    fs.writeFile(dataFilePath, `${json}`, 'utf8', err => {
-
-        // If there's an error writing to the file, log the error and exit
-        if (err) {
-            console.error(err);
-            return;
-        }
-        // Log a success message
-        console.log('Data written to file');
-    });
-});
-*/
