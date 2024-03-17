@@ -22,7 +22,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install Node.js
-        uses: npm install
+        run: npm install
 
       - name: Run parse-readme.js
         run: echo "Hello World"
