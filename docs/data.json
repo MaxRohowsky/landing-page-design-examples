@@ -6,10 +6,11 @@
     "companyName": "Scale",
     "screenshotPath": "screenshots/Scale.jpeg",
     "tags": [
-      "startup",
-      "bootstrap",
-      "technology",
-      "software"
+     "scaleup", 
+     "ai",
+     "dark",
+     "galaxy",
+     "pro"
     ],
     "stack": "React",
     "timeToPageLoad": 439
@@ -21,8 +22,11 @@
     "companyName": "Head Shot Pro",
     "screenshotPath": "screenshots/Headshotpro.jpeg",
     "tags": [
+      "ai", 
+      "formal",
+      "easy",
       "startup",
-      ""
+      "design"
     ],
     "stack": "Nuxt.js",
     "timeToPageLoad": 34
@@ -35,7 +39,9 @@
     "screenshotPath": "screenshots/Airbnb.jpeg",
     "tags": [
       "travel",
-      "rental"
+      "light",
+      "corporate",
+      "easy"
     ],
     "stack": "React",
     "timeToPageLoad": 474
@@ -47,8 +53,11 @@
     "companyName": "Uber",
     "screenshotPath": "screenshots/Uber.jpeg",
     "tags": [
-      "transportation",
-      "ridesharing"
+      "easy",
+      "cartoons",
+      "formal",
+      "transport",
+      "corporate"
     ],
     "stack": "",
     "timeToPageLoad": 173
@@ -60,8 +69,9 @@
     "companyName": "Netflix",
     "screenshotPath": "screenshots/Netflix.jpeg",
     "tags": [
-      "streaming",
-      "entertainment"
+      "dark",
+      "entertainment",
+      "corporate"
     ],
     "stack": "React",
     "timeToPageLoad": 336
@@ -73,8 +83,11 @@
     "companyName": "Microsoft",
     "screenshotPath": "screenshots/Microsoft.jpeg",
     "tags": [
-      "technology",
-      "software"
+      "corporate",
+      "light",
+      "colorful",
+      "technology"
+
     ],
     "stack": "jQuery",
     "timeToPageLoad": 792
@@ -87,7 +100,10 @@
     "screenshotPath": "screenshots/Github.jpeg",
     "tags": [
       "technology",
-      "software"
+      "dark",
+      "galaxy",
+      "cartoons",
+      "corporate"
     ],
     "stack": "React",
     "timeToPageLoad": 55
@@ -99,8 +115,10 @@
     "companyName": "Perspective",
     "screenshotPath": "screenshots/Perspective.jpeg",
     "tags": [
-      "sales",
-      "saas"
+      "marketing",
+      "easy",
+      "colorful",
+      "sales"
     ],
     "stack": "jQuery",
     "timeToPageLoad": 125
@@ -112,7 +130,10 @@
     "companyName": "Rewind",
     "screenshotPath": "screenshots/Rewind.jpeg",
     "tags": [
-      "ai"
+      "ai",
+      "colorful",
+      "light",
+      "startup"
     ],
     "stack": "jQuery",
     "timeToPageLoad": 86
@@ -124,7 +145,11 @@
     "companyName": "Workable",
     "screenshotPath": "screenshots/Workable.jpeg",
     "tags": [
-      "recruiting"
+      "recruiting",
+      "colorful",
+      "scaleup",
+      "easy", 
+      "cartoons"
     ],
     "stack": "React",
     "timeToPageLoad": 642
@@ -136,7 +161,10 @@
     "companyName": "Specify",
     "screenshotPath": "screenshots/Specify.jpeg",
     "tags": [
-      "automation"
+      "technology",
+      "dark",
+      "pro",
+      "design"
     ],
     "stack": "React",
     "timeToPageLoad": 29
@@ -149,7 +177,9 @@
     "screenshotPath": "screenshots/Klu.jpeg",
     "tags": [
       "ai",
-      "saas"
+      "startup",
+      "dark",
+      "technology"
     ],
     "stack": "jQuery",
     "timeToPageLoad": 248
@@ -161,8 +191,11 @@
     "companyName": "Magician",
     "screenshotPath": "screenshots/Magician.jpeg",
     "tags": [
-      "saas",
-      "design"
+      "ai",
+      "design",
+      "easy",
+      "colorful",
+      "startup"
     ],
     "stack": "",
     "timeToPageLoad": 58
@@ -174,8 +207,9 @@
     "companyName": "Rive",
     "screenshotPath": "screenshots/Rive.jpeg",
     "tags": [
-      "gaming",
-      "dark"
+      "dark",
+      "design",
+      "technology"
     ],
     "stack": "React",
     "timeToPageLoad": 311
@@ -188,7 +222,7 @@
     "screenshotPath": "screenshots/TubeCut.jpeg",
     "tags": [
       "social",
-      "saas"
+      "dark"
     ],
     "stack": "React",
     "timeToPageLoad": 69
@@ -200,8 +234,9 @@
     "companyName": "Hypercomply",
     "screenshotPath": "screenshots/Hypercomply.jpeg",
     "tags": [
-      "security",
-      "automation"
+      "technology",
+      "light",
+      "happy"
     ],
     "stack": "jQuery",
     "timeToPageLoad": 82
@@ -213,7 +248,11 @@
     "companyName": "Stripe",
     "screenshotPath": "screenshots/Stripe.jpeg",
     "tags": [
-      "payments"
+      "finance",
+      "corporate",
+      "technology",
+      "colorful",
+      "happy"
     ],
     "stack": "",
     "timeToPageLoad": 1295
@@ -225,7 +264,10 @@
     "companyName": "hoox",
     "screenshotPath": "screenshots/Hoox.jpeg",
     "tags": [
-      ""
+      "technology",
+      "marketing",
+      "easy",
+      "dark"
     ],
     "stack": "",
     "timeToPageLoad": 268
@@ -237,7 +279,10 @@
     "companyName": "surfe",
     "screenshotPath": "screenshots/Surfe.jpeg",
     "tags": [
-      ""
+      "marketing",
+      "formal",
+      "easy",
+      "sales"
     ],
     "stack": "React",
     "timeToPageLoad": 50
@@ -249,7 +294,10 @@
     "companyName": "currentvehicles",
     "screenshotPath": "screenshots/Currentvehicles.jpeg",
     "tags": [
-      ""
+      "transport",
+      "technology",
+      "colorful",
+      "happy"
     ],
     "stack": "React",
     "timeToPageLoad": 64
@@ -261,7 +309,10 @@
     "companyName": "about.pangea.app",
     "screenshotPath": "screenshots/Pangea.jpeg",
     "tags": [
-      ""
+      "recruiting",
+      "marketing",
+      "galaxy",
+      "dark"
     ],
     "stack": "jQuery",
     "timeToPageLoad": 93

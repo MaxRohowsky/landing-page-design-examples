@@ -20,13 +20,15 @@ ecurity; #automation
 ayments                   
 
 
-Look: light, colorful, dark
+Look: Light, Colorful, Dark
 
-Financing: bootstrapped, vc, unicorn
+Feel: Happy, Formal, Galaxy, Cartoons
 
-Stage: startup, established, corporate
+Pro: Easy, Pro
 
-Industry: finance, HR, AI, marketing
+Stage: Startup, Scaleup, Corporate
+
+Other: Finance, AI, Marketing, Sales, Recruiting, Transport, eCommerce, Social, Design, Education, Travel, Entertainment, Technology
 
 
 
