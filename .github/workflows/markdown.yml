@@ -21,8 +21,8 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v4
 
-      - name: Install dependencies
-        run: npx puppeteer browsers install chrome
+      - name: Setup Chrome
+        uses: browser-actions/setup-chrome@latest
 
       - name: Run parse-readme.js
         run: node docs/parse-readme.js
