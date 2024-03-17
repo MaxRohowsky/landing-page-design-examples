@@ -6,7 +6,7 @@ export default function Card({ item }) {
     return (
         <div className="flex flex-col justify-center mr-1 ml-1 mt-1 mb-3">
             <div className="flex flex-col items-start">
-                <div className='overflow-hidden rounded-xl w-[350px] h-[400px] transition-transform duration-500 ease-in-out transform lg:hover:scale-105 shadow-md'>
+                <div className='overflow-y-auto card-scrollbar rounded-sm w-[350px] h-[400px] transition-transform duration-500 ease-in-out transform lg:hover:scale-105 shadow-md'>
                     <Image
                         src={`https://raw.githubusercontent.com/maxontech/landing-page-design-examples/master/docs/${item.screenshotPath}`}
                         alt={item.title}

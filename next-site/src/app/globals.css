@@ -32,4 +32,32 @@ body {
   }
 }
 
+.filter-scrollbar {
+  cursor: ew-resize;
+}
+
+.filter-scrollbar::-webkit-scrollbar {
+  width: 0;  /* For vertical scrollbars */
+  height: 0; /* For horizontal scrollbars */
+}
+
+.filter-scrollbar::-webkit-scrollbar-track,
+.filter-scrollbar::-webkit-scrollbar-thumb,
+.filter-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: transparent; 
+}
+
+.card-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.card-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(var(--foreground-rgb), 0.3);
+  border-radius: 20px;
+  border: 0px solid rgba(var(--foreground-rgb), 0);
+  background-clip: padding-box;
+  width: 5px;
+}
+
+
 
