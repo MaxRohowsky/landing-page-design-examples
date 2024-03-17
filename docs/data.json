@@ -19,7 +19,7 @@
     "title": "The #1 AI Headshot Generator for Professional Headshots",
     "url": "https://www.headshotpro.com",
     "companyName": "Head Shot Pro",
-    "screenshotPath": "screenshots/HeadShotPro.jpeg",
+    "screenshotPath": "screenshots/Headshotpro.jpeg",
     "tags": [
       "startup",
       ""
@@ -52,19 +52,6 @@
     ],
     "stack": "",
     "timeToPageLoad": 173
-  },
-  {
-    "timestamp": "2024-03-17T18:48:57.798Z",
-    "title": "Facebook - log in or sign up",
-    "url": "https://www.facebook.com",
-    "companyName": "Facebook",
-    "screenshotPath": "screenshots/Facebook.jpeg",
-    "tags": [
-      "socialmedia",
-      "networking"
-    ],
-    "stack": "",
-    "timeToPageLoad": 250
   },
   {
     "timestamp": "2024-03-17T18:48:58.947Z",

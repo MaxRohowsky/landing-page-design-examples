@@ -4,7 +4,6 @@
 | [Head Shot Pro](https://www.headshotpro.com)             | #startup;                     |
 | [Airbnb](https://www.airbnb.com)                         | #travel; #rental              |
 | [Uber](https://www.uber.com)                             | #transportation; #ridesharing |
-| [Facebook](https://www.facebook.com)                     | #socialmedia; #networking     |
 | [Netflix](https://www.netflix.com)                       | #streaming; #entertainment    |
 | [Microsoft](https://www.microsoft.com)                   | #technology; #software        |
 | [Github](https://www.github.com)                         | #technology; #software        |
