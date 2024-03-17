@@ -15,8 +15,8 @@ export default function Card({ item }) {
                     />
                 </div>
                 <span className="flex justify-between items-baseline mt-2 pl-1 pr-1 w-[350px]">
-                    <h2 className=" font-semibold text-base">{item.companyName}</h2>
-                    <div className="flex space-x-2 text-base font-normal" >
+                    <h2 className=" font-semibold text-sm">{item.companyName}</h2>
+                    <div className="flex space-x-1 text-sm font-normal" >
                         <p className="">
                             {item.stack !== "" && <FontAwesomeIcon className="mx-1" icon={faLayerGroup} />}
                             {item.stack}
@@ -26,7 +26,7 @@ export default function Card({ item }) {
                 </span>
                 <span className="flex flex-wrap items-baseline pl-1 pr-1 w-[350px] overflow-auto whitespace-normal">
                     {item.tags.map((tag, index) => (
-                        <p key={index} className="text-base pr-2 font-normal text-gray-600">{"#" + tag.charAt(0).toUpperCase() + tag.slice(1)}</p>
+                        <p key={index} className="text-sm pr-2 font-normal text-gray-600">{"#" + tag.charAt(0).toUpperCase() + tag.slice(1)}</p>
                     ))}
                 </span>
 

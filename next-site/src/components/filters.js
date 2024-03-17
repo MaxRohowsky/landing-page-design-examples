@@ -44,7 +44,7 @@ export default function Filters({ selectedTags, handleTagClick, resetFilters }) 
         <div className="w-full z-20  max-w-screen-xl mx-auto m-6  rounded-md">
             <div className="flex m-1">
                 <button onClick={resetFilters} className="whitespace-nowrap mr-4 m-2
-                    px-3 text-xs sm:text-sm font-medium text-back transition-all duration-200 ease-in-out  hover:text-red-500 bg-white rounded-md  ">
+                    px-3 text-xs sm:text-sm font-medium text-back transition-all duration-200 ease-in-out  hover:bg-red-400 bg-white rounded-md  ">
                     ❌ Reset Filters
                 </button>
                 <div className="overflow-x-scroll filter-scrollbar px-1 bg-slate-300 rounded-md p-2">
@@ -53,8 +53,8 @@ export default function Filters({ selectedTags, handleTagClick, resetFilters }) 
                             <button
                                 key={tag}
                                 onClick={() => handleTagClick(tag.slice(3))}
-                                className={`bg-white rounded-md  whitespace-nowrap  py-2 px-3 text-xs sm:text-sm font-medium 
-                                     ${selectedTags.includes(tag.slice(3)) ? 'bg-green-600 text-white' : 'text-black hover:scale-105 transition-all duration-200 ease-in-out hover:bg-slate-400 hover:text-white'}`}
+                                className={`rounded-md  whitespace-nowrap  py-2 px-3 text-xs sm:text-sm font-medium 
+                                     ${selectedTags.includes(tag.slice(3)) ? 'bg-green-600 text-white' : 'text-black hover:scale-105 transition-all duration-200 ease-in-out bg-slate-50 '}`}
                             >
                                 {tag}
                             </button>

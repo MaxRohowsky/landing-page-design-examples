@@ -26,10 +26,12 @@ export default function Navbar() {
 
                     </div>
                     <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-                        <button type="button" className="text-white bg-github hover:bg-blue-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                            <FontAwesomeIcon icon={faGithub} className='pr-2' />
-                            View on GitHub
-                        </button>
+                        <a href="https://github.com/maxontech/landing-page-design-examples" target="_blank" rel="noopener noreferrer">
+                            <button type="button" className="text-white bg-github hover:bg-blue-500 active:bg-blue-700 font-medium rounded-lg text-sm px-4 py-2">
+                                <FontAwesomeIcon icon={faGithub} className='pr-2' />
+                                View on GitHub
+                            </button>
+                        </a>
                     </div>
                     <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
                     </div>

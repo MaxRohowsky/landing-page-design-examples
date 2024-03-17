@@ -15,19 +15,20 @@
     "timeToPageLoad": 439
   },
   {
-    "timestamp": "2024-03-14T20:17:33.325Z",
+    "timestamp": "2024-03-17T18:48:55.427Z",
     "title": "The #1 AI Headshot Generator for Professional Headshots",
     "url": "https://www.headshotpro.com",
     "companyName": "Head Shot Pro",
     "screenshotPath": "screenshots/HeadShotPro.jpeg",
     "tags": [
-      "startup"
+      "startup",
+      ""
     ],
     "stack": "Nuxt.js",
-    "timeToPageLoad": 41
+    "timeToPageLoad": 34
   },
   {
-    "timestamp": "2024-03-14T20:17:34.118Z",
+    "timestamp": "2024-03-17T18:48:56.245Z",
     "title": "Airbnb | Vacation rentals, cabins, beach houses, & more",
     "url": "https://www.airbnb.com",
     "companyName": "Airbnb",
@@ -37,10 +38,10 @@
       "rental"
     ],
     "stack": "React",
-    "timeToPageLoad": 462
+    "timeToPageLoad": 474
   },
   {
-    "timestamp": "2024-03-14T20:17:34.987Z",
+    "timestamp": "2024-03-17T18:48:57.134Z",
     "title": "Erziele Umsätze als Fahrer*in oder bestelle jetzt eine Fahrt | Uber Deutschland",
     "url": "https://www.uber.com",
     "companyName": "Uber",
@@ -50,23 +51,10 @@
       "ridesharing"
     ],
     "stack": "",
-    "timeToPageLoad": 180
+    "timeToPageLoad": 173
   },
   {
-    "timestamp": "2024-03-14T20:17:35.580Z",
-    "title": "Google",
-    "url": "https://www.google.com",
-    "companyName": "Google",
-    "screenshotPath": "screenshots/Google.jpeg",
-    "tags": [
-      "search",
-      "technology"
-    ],
-    "stack": "",
-    "timeToPageLoad": 180
-  },
-  {
-    "timestamp": "2024-03-14T20:17:36.056Z",
+    "timestamp": "2024-03-17T18:48:57.798Z",
     "title": "Facebook - log in or sign up",
     "url": "https://www.facebook.com",
     "companyName": "Facebook",
@@ -76,23 +64,10 @@
       "networking"
     ],
     "stack": "",
-    "timeToPageLoad": 144
+    "timeToPageLoad": 250
   },
   {
-    "timestamp": "2024-03-14T20:17:37.278Z",
-    "title": "Amazon.com. Spend less. Smile more.",
-    "url": "https://www.amazon.com",
-    "companyName": "Amazon",
-    "screenshotPath": "screenshots/Amazon.jpeg",
-    "tags": [
-      "ecommerce",
-      "retail"
-    ],
-    "stack": "",
-    "timeToPageLoad": 510
-  },
-  {
-    "timestamp": "2024-03-14T20:17:38.943Z",
+    "timestamp": "2024-03-17T18:48:58.947Z",
     "title": "Netflix - Watch TV Shows Online, Watch Movies Online",
     "url": "https://www.netflix.com",
     "companyName": "Netflix",
@@ -102,23 +77,10 @@
       "entertainment"
     ],
     "stack": "React",
-    "timeToPageLoad": 595
+    "timeToPageLoad": 336
   },
   {
-    "timestamp": "2024-03-15T11:27:03.097Z",
-    "title": "GitHub: Let’s build from here · GitHub",
-    "url": "https://www.github.com",
-    "companyName": "Github",
-    "screenshotPath": "screenshots/Github.jpeg",
-    "tags": [
-      "technology",
-      "software"
-    ],
-    "stack": "React",
-    "timeToPageLoad": 51
-  },
-  {
-    "timestamp": "2024-03-17T14:34:25.702Z",
+    "timestamp": "2024-03-17T18:49:00.974Z",
     "title": "Microsoft – Cloud, Computer, Apps und Gaming",
     "url": "https://www.microsoft.com",
     "companyName": "Microsoft",
@@ -128,10 +90,23 @@
       "software"
     ],
     "stack": "jQuery",
-    "timeToPageLoad": 780
+    "timeToPageLoad": 792
   },
   {
-    "timestamp": "2024-03-17T16:27:14.433Z",
+    "timestamp": "2024-03-17T18:49:01.943Z",
+    "title": "GitHub: Let’s build from here · GitHub",
+    "url": "https://www.github.com",
+    "companyName": "Github",
+    "screenshotPath": "screenshots/Github.jpeg",
+    "tags": [
+      "technology",
+      "software"
+    ],
+    "stack": "React",
+    "timeToPageLoad": 55
+  },
+  {
+    "timestamp": "2024-03-17T18:49:03.752Z",
     "title": "Perspective Funnels - Easily Build breathtaking Mobile Funnels",
     "url": "https://www.perspective.co",
     "companyName": "Perspective",
@@ -141,23 +116,22 @@
       "saas"
     ],
     "stack": "jQuery",
-    "timeToPageLoad": 2099
+    "timeToPageLoad": 125
   },
   {
-    "timestamp": "2024-03-17T16:27:17.280Z",
+    "timestamp": "2024-03-17T18:49:07.599Z",
     "title": "Rewind",
     "url": "https://www.rewind.ai",
     "companyName": "Rewind",
     "screenshotPath": "screenshots/Rewind.jpeg",
     "tags": [
-      "ai",
-      ""
+      "ai"
     ],
     "stack": "jQuery",
-    "timeToPageLoad": 88
+    "timeToPageLoad": 86
   },
   {
-    "timestamp": "2024-03-17T16:27:19.582Z",
+    "timestamp": "2024-03-17T18:49:09.705Z",
     "title": "The world’s leading recruiting software and hiring platform | Workable",
     "url": "https://www.workable.com",
     "companyName": "Workable",
@@ -166,10 +140,10 @@
       "recruiting"
     ],
     "stack": "React",
-    "timeToPageLoad": 669
+    "timeToPageLoad": 642
   },
   {
-    "timestamp": "2024-03-17T16:27:21.720Z",
+    "timestamp": "2024-03-17T18:49:11.459Z",
     "title": "Specify | Your Design Token Engine",
     "url": "https://specifyapp.com",
     "companyName": "Specify",
@@ -178,10 +152,10 @@
       "automation"
     ],
     "stack": "React",
-    "timeToPageLoad": 28
+    "timeToPageLoad": 29
   },
   {
-    "timestamp": "2024-03-17T16:27:23.742Z",
+    "timestamp": "2024-03-17T18:49:13.271Z",
     "title": "Klu: AI Search Engine For Your Work Apps",
     "url": "https://klu.so",
     "companyName": "Klu.so",
@@ -191,10 +165,10 @@
       "saas"
     ],
     "stack": "jQuery",
-    "timeToPageLoad": 738
+    "timeToPageLoad": 248
   },
   {
-    "timestamp": "2024-03-17T16:27:25.595Z",
+    "timestamp": "2024-03-17T18:49:15.128Z",
     "title": "Magician for Figma",
     "url": "https://magician.design",
     "companyName": "Magician",
@@ -204,10 +178,10 @@
       "design"
     ],
     "stack": "",
-    "timeToPageLoad": 28
+    "timeToPageLoad": 58
   },
   {
-    "timestamp": "2024-03-17T16:27:26.885Z",
+    "timestamp": "2024-03-17T18:49:16.209Z",
     "title": "Rive - Build interactive motion graphics that run anywhere",
     "url": "https://rive.app",
     "companyName": "Rive",
@@ -217,10 +191,10 @@
       "dark"
     ],
     "stack": "React",
-    "timeToPageLoad": 315
+    "timeToPageLoad": 311
   },
   {
-    "timestamp": "2024-03-17T16:27:27.645Z",
+    "timestamp": "2024-03-17T18:49:16.932Z",
     "title": "tubecut. - Youtube Video Downloader for macOS",
     "url": "https://tubecut.app",
     "companyName": "TubeCut",
@@ -230,10 +204,10 @@
       "saas"
     ],
     "stack": "React",
-    "timeToPageLoad": 74
+    "timeToPageLoad": 69
   },
   {
-    "timestamp": "2024-03-17T16:27:29.258Z",
+    "timestamp": "2024-03-17T18:49:17.890Z",
     "title": "Automate security questionnaires with HyperComply",
     "url": "https://www.hypercomply.com",
     "companyName": "Hypercomply",
@@ -243,22 +217,10 @@
       "automation"
     ],
     "stack": "jQuery",
-    "timeToPageLoad": 672
+    "timeToPageLoad": 82
   },
   {
-    "timestamp": "2024-03-17T16:27:31.961Z",
-    "title": "CommentGuard | Facebook & Instagram Moderation Software",
-    "url": "https://commentguard.io/",
-    "companyName": "CommentGuard",
-    "screenshotPath": "screenshots/CommentGuard.jpeg",
-    "tags": [
-      "social"
-    ],
-    "stack": "jQuery",
-    "timeToPageLoad": 267
-  },
-  {
-    "timestamp": "2024-03-17T16:27:34.236Z",
+    "timestamp": "2024-03-17T18:49:20.110Z",
     "title": "Stripe | Financial Infrastructure for the Internet",
     "url": "https://www.stripe.com",
     "companyName": "Stripe",
@@ -267,6 +229,798 @@
       "payments"
     ],
     "stack": "",
-    "timeToPageLoad": 1305
+    "timeToPageLoad": 1295
+  },
+  {
+    "timestamp": "2024-03-17T18:49:22.598Z",
+    "title": "Landing page solution | HOOX",
+    "url": "https://www.hoox.co",
+    "companyName": "hoox",
+    "screenshotPath": "screenshots/Hoox.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "",
+    "timeToPageLoad": 268
+  },
+  {
+    "timestamp": "2024-03-17T18:49:23.989Z",
+    "title": "LinkedIn prospecting, streamlined. - SURFE",
+    "url": "https://www.surfe.com",
+    "companyName": "surfe",
+    "screenshotPath": "screenshots/Surfe.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "React",
+    "timeToPageLoad": 50
+  },
+  {
+    "timestamp": "2024-03-17T18:49:24.615Z",
+    "title": "Electric vehicles on-demand - Current",
+    "url": "https://www.currentvehicles.com",
+    "companyName": "currentvehicles",
+    "screenshotPath": "screenshots/Currentvehicles.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "React",
+    "timeToPageLoad": 64
+  },
+  {
+    "timestamp": "2024-03-17T18:49:25.767Z",
+    "title": "Hire with a Talent Expert",
+    "url": "https://www.about.pangea.app",
+    "companyName": "about.pangea.app",
+    "screenshotPath": "screenshots/Pangea.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 93
+  },
+  {
+    "timestamp": "2024-03-17T18:49:26.955Z",
+    "title": "Wope: The New Era Of Rank Tracking",
+    "url": "https://www.wope.com",
+    "companyName": "wope",
+    "screenshotPath": "screenshots/Wope.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "",
+    "timeToPageLoad": 472
+  },
+  {
+    "timestamp": "2024-03-17T18:49:32.852Z",
+    "title": "DragApp | Official Site | World's 1st All-In-One Workspace in Gmail",
+    "url": "https://www.dragapp.com",
+    "companyName": "dragapp",
+    "screenshotPath": "screenshots/Dragapp.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "",
+    "timeToPageLoad": 4679
+  },
+  {
+    "timestamp": "2024-03-17T18:49:33.688Z",
+    "title": "Happy Tools – Tools for teams with work to do",
+    "url": "https://www.happy.tools",
+    "companyName": "happy.tools",
+    "screenshotPath": "screenshots/Happytools.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 34
+  },
+  {
+    "timestamp": "2024-03-17T18:49:35.014Z",
+    "title": "World-class subscription pricing experts | Price Intelligently by Paddle",
+    "url": "https://www.priceintelligently.com",
+    "companyName": "priceintelligently",
+    "screenshotPath": "screenshots/Priceintelligently.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "React",
+    "timeToPageLoad": 60
+  },
+  {
+    "timestamp": "2024-03-17T18:49:36.539Z",
+    "title": "We index the web and structure the data | Dataprovider.com",
+    "url": "https://www.dataprovider.com",
+    "companyName": "dataprovider",
+    "screenshotPath": "screenshots/Dataprovider.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "React",
+    "timeToPageLoad": 175
+  },
+  {
+    "timestamp": "2024-03-17T18:49:38.424Z",
+    "title": "Home | Ascend Indiana",
+    "url": "http://www.ascendindiana.com",
+    "companyName": "ascendindiana",
+    "screenshotPath": "screenshots/Ascendindiana.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "",
+    "timeToPageLoad": 206
+  },
+  {
+    "timestamp": "2024-03-17T18:49:39.708Z",
+    "title": "Tax, Financial, and Accounting Services | Indinero",
+    "url": "http://www.indinero.com",
+    "companyName": "indinero",
+    "screenshotPath": "screenshots/Indinero.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "",
+    "timeToPageLoad": 252
+  },
+  {
+    "timestamp": "2024-03-17T18:49:44.285Z",
+    "title": "Software Development Services | Top-Tier Tech Talent - Gigster",
+    "url": "https://www.gigster.com",
+    "companyName": "gigster",
+    "screenshotPath": "screenshots/Gigster.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 924
+  },
+  {
+    "timestamp": "2024-03-17T18:49:44.608Z",
+    "title": "KlientBoost - Performance Marketing Agency 2024",
+    "url": "https://www.klientboost.com",
+    "companyName": "klientboost",
+    "screenshotPath": "screenshots/Klientboost.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "Gatsby.js",
+    "timeToPageLoad": 38
+  },
+  {
+    "timestamp": "2024-03-17T18:49:47.519Z",
+    "title": "Pixel True Designs",
+    "url": "https://www.pixeltrue.com",
+    "companyName": "pixeltrue",
+    "screenshotPath": "screenshots/Pixeltrue.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 86
+  },
+  {
+    "timestamp": "2024-03-17T18:49:49.874Z",
+    "title": "Access to this page has been denied",
+    "url": "https://www.neverbounce.com",
+    "companyName": "neverbounce",
+    "screenshotPath": "screenshots/Neverbounce.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "",
+    "timeToPageLoad": 130
+  },
+  {
+    "timestamp": "2024-03-17T18:49:52.577Z",
+    "title": "Unbounce - The Landing Page Builder & Platform",
+    "url": "https://www.unbounce.com",
+    "companyName": "unbounce",
+    "screenshotPath": "screenshots/Unbounce.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 448
+  },
+  {
+    "timestamp": "2024-03-17T18:49:53.651Z",
+    "title": "Just a moment...",
+    "url": "https://www.getastra.com",
+    "companyName": "getastra",
+    "screenshotPath": "screenshots/Getastra.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "",
+    "timeToPageLoad": 39
+  },
+  {
+    "timestamp": "2024-03-17T18:49:55.597Z",
+    "title": "KloudMate | Microservices Observability Platform",
+    "url": "https://www.kloudmate.com",
+    "companyName": "kloudmate",
+    "screenshotPath": "screenshots/Kloudmate.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "React",
+    "timeToPageLoad": 73
+  },
+  {
+    "timestamp": "2024-03-17T18:49:58.452Z",
+    "title": "AI-Powered Productivity. A Second Brain for Teams | Taskade",
+    "url": "https://www.taskade.com",
+    "companyName": "taskade",
+    "screenshotPath": "screenshots/Taskade.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "React",
+    "timeToPageLoad": 808
+  },
+  {
+    "timestamp": "2024-03-17T18:52:06.201Z",
+    "title": "Nightwatch: AI-Ready SEO Monitoring Tool",
+    "url": "https://www.nightwatch.io",
+    "companyName": "nightwatch",
+    "screenshotPath": "screenshots/Nightwatch.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 78
+  },
+  {
+    "timestamp": "2024-03-17T18:52:11.431Z",
+    "title": "Home Page - UpDiagram",
+    "url": "https://www.updiagram.com",
+    "companyName": "updiagram",
+    "screenshotPath": "screenshots/Updiagram.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 799
+  },
+  {
+    "timestamp": "2024-03-17T18:52:13.580Z",
+    "title": "Dropbase | Build internal web apps with just Python in minutes",
+    "url": "https://www.dropbase.io",
+    "companyName": "dropbase",
+    "screenshotPath": "screenshots/Dropbase.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 77
+  },
+  {
+    "timestamp": "2024-03-17T18:52:17.317Z",
+    "title": "Product Management Software | Productboard",
+    "url": "https://www.productboard.com",
+    "companyName": "productboard",
+    "screenshotPath": "screenshots/Productboard.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 902
+  },
+  {
+    "timestamp": "2024-03-17T18:52:19.286Z",
+    "title": "Churn Buster—Customer Retention Software for eCommerce / Shopify / Recharge / Stay / Ordergroove / and more",
+    "url": "https://www.churnbuster.io",
+    "companyName": "churnbuster",
+    "screenshotPath": "screenshots/Churnbuster.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 78
+  },
+  {
+    "timestamp": "2024-03-17T18:52:58.466Z",
+    "title": "Magic | The leading wallet-as-a-service plus essential NFT capabilities | Magic",
+    "url": "https://www.magic.link",
+    "companyName": "magic",
+    "screenshotPath": "screenshots/Magic.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "React",
+    "timeToPageLoad": 165
+  },
+  {
+    "timestamp": "2024-03-17T18:52:59.436Z",
+    "title": "CRM for Marketing, Sales & Payments | Communication API's | Bird",
+    "url": "https://www.messagebird.com",
+    "companyName": "messagebird",
+    "screenshotPath": "screenshots/Messagebird.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "React",
+    "timeToPageLoad": 220
+  },
+  {
+    "timestamp": "2024-03-17T18:53:01.332Z",
+    "title": "Sales Proposal Software | Close Deals Faster | Qwilr",
+    "url": "https://www.qwilr.com",
+    "companyName": "qwilr",
+    "screenshotPath": "screenshots/Qwilr.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "",
+    "timeToPageLoad": 390
+  },
+  {
+    "timestamp": "2024-03-17T18:53:04.670Z",
+    "title": "Planable | Content Planning, Approval & Collaboration Done Right",
+    "url": "https://www.planable.io",
+    "companyName": "planable",
+    "screenshotPath": "screenshots/Planable.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 144
+  },
+  {
+    "timestamp": "2024-03-17T18:53:06.276Z",
+    "title": "Enabling all companies to build fintech solutions | Plaid",
+    "url": "https://www.plaid.com",
+    "companyName": "plaid",
+    "screenshotPath": "screenshots/Plaid.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "React",
+    "timeToPageLoad": 41
+  },
+  {
+    "timestamp": "2024-03-17T18:53:07.393Z",
+    "title": "The domain name Tasman.io is for sale",
+    "url": "https://www.tasman.io",
+    "companyName": "tasman",
+    "screenshotPath": "screenshots/Tasman.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "React",
+    "timeToPageLoad": 293
+  },
+  {
+    "timestamp": "2024-03-17T18:53:07.523Z",
+    "title": "ERROR: The request could not be satisfied",
+    "url": "https://www.freshdesk.com",
+    "companyName": "freshdesk",
+    "screenshotPath": "screenshots/Freshdesk.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "",
+    "timeToPageLoad": 17
+  },
+  {
+    "timestamp": "2024-03-17T18:53:09.048Z",
+    "title": "Email Marketing Platform | Litmus",
+    "url": "https://www.litmus.com",
+    "companyName": "litmus",
+    "screenshotPath": "screenshots/Litmus.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 32
+  },
+  {
+    "timestamp": "2024-03-17T18:53:10.884Z",
+    "title": "The #1 FREE email capture tool | Sumo",
+    "url": "https://www.sumo.com",
+    "companyName": "sumo",
+    "screenshotPath": "screenshots/Sumo.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 591
+  },
+  {
+    "timestamp": "2024-03-17T18:53:11.281Z",
+    "title": "SingleStore | Real-Time Analytics. Real-Time Applications. Real-Time AI. Right Now.",
+    "url": "http://www.memsql.com",
+    "companyName": "memsql",
+    "screenshotPath": "screenshots/Memsql.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "Gatsby.js",
+    "timeToPageLoad": 56
+  },
+  {
+    "timestamp": "2024-03-17T18:53:12.262Z",
+    "title": "",
+    "url": "https://www.waaffle.com",
+    "companyName": "waaffle",
+    "screenshotPath": "screenshots/Waaffle.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "",
+    "timeToPageLoad": 63
+  },
+  {
+    "timestamp": "2024-03-17T18:53:15.492Z",
+    "title": "Heap - Better Insights. Faster. | Heap",
+    "url": "https://www.heapanalytics.com",
+    "companyName": "heapanalytics",
+    "screenshotPath": "screenshots/Heapanalytics.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "React",
+    "timeToPageLoad": 79
+  },
+  {
+    "timestamp": "2024-03-17T18:55:22.363Z",
+    "title": "Twilio Segment - Ranked #1 Customer Data Platform four years in a row per IDC (2019-2022)",
+    "url": "https://www.segment.com",
+    "companyName": "segment",
+    "screenshotPath": "screenshots/Segment.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "React",
+    "timeToPageLoad": 1151
+  },
+  {
+    "timestamp": "2024-03-17T18:55:25.282Z",
+    "title": "AI search that understands | Algolia",
+    "url": "https://www.algolia.com",
+    "companyName": "algolia",
+    "screenshotPath": "screenshots/Algolia.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "React",
+    "timeToPageLoad": 368
+  },
+  {
+    "timestamp": "2024-03-17T18:55:26.665Z",
+    "title": "Online Invoicing, Time Tracking, and CRM Software - Ballpark",
+    "url": "https://www.getballpark.com",
+    "companyName": "getballpark",
+    "screenshotPath": "screenshots/Getballpark.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 258
+  },
+  {
+    "timestamp": "2024-03-17T18:55:27.702Z",
+    "title": "Sales Intelligence and Engagement Platform | Apollo",
+    "url": "https://www.apollo.io",
+    "companyName": "apollo.io",
+    "screenshotPath": "screenshots/Apollo.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "React",
+    "timeToPageLoad": 101
+  },
+  {
+    "timestamp": "2024-03-17T18:55:29.756Z",
+    "title": "Communication APIs for SMS, Voice, Video & Authentication | Twilio",
+    "url": "https://www.twilio.com",
+    "companyName": "twilio",
+    "screenshotPath": "screenshots/Twilio.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 92
+  },
+  {
+    "timestamp": "2024-03-17T18:55:36.836Z",
+    "title": "Whoops - Conversica - Powerfully Human - Revenue Digital Assistants",
+    "url": "https://info.conversica.com",
+    "companyName": "info.conversica.com",
+    "screenshotPath": "screenshots/Conversica.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "",
+    "timeToPageLoad": 229
+  },
+  {
+    "timestamp": "2024-03-17T18:55:39.456Z",
+    "title": "Free competitive scanner | Tebra",
+    "url": "https://compare.patientpop.com",
+    "companyName": "patientpop",
+    "screenshotPath": "screenshots/Patientpop.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 14
+  },
+  {
+    "timestamp": "2024-03-17T18:55:40.271Z",
+    "title": "Create your online store today with Shopify USA",
+    "url": "https://www.shopify.com/free-trial",
+    "companyName": "shopify",
+    "screenshotPath": "screenshots/Shopify.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "",
+    "timeToPageLoad": 441
+  },
+  {
+    "timestamp": "2024-03-17T18:55:42.779Z",
+    "title": "Muzzle - silence embarrassing notifications",
+    "url": "https://www.muzzleapp.com",
+    "companyName": "muzzleapp",
+    "screenshotPath": "screenshots/Muzzleapp.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 169
+  },
+  {
+    "timestamp": "2024-03-17T18:55:47.131Z",
+    "title": "Dropbox.com",
+    "url": "https://www.dropbox.com",
+    "companyName": "dropbox",
+    "screenshotPath": "screenshots/Dropbox.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "React",
+    "timeToPageLoad": 979
+  },
+  {
+    "timestamp": "2024-03-17T18:55:47.881Z",
+    "title": "Reflect Notes",
+    "url": "https://www.reflect.app",
+    "companyName": "reflect.app",
+    "screenshotPath": "screenshots/Reflect.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "",
+    "timeToPageLoad": 72
+  },
+  {
+    "timestamp": "2024-03-17T18:55:49.230Z",
+    "title": "CSS Pro | Become a CSS Pro",
+    "url": "https://www.csspro.com",
+    "companyName": "csspro",
+    "screenshotPath": "screenshots/Csspro.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 41
+  },
+  {
+    "timestamp": "2024-03-17T18:55:51.021Z",
+    "title": "Music Distribution with No Recurring Fees | CD Baby",
+    "url": "https://www.cdbaby.com",
+    "companyName": "cdbaby",
+    "screenshotPath": "screenshots/Cdbaby.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 217
+  },
+  {
+    "timestamp": "2024-03-17T18:55:51.372Z",
+    "title": "Just a moment...",
+    "url": "https://www.doordash.com",
+    "companyName": "doordash",
+    "screenshotPath": "screenshots/Doordash.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "",
+    "timeToPageLoad": 24
+  },
+  {
+    "timestamp": "2024-03-17T18:55:55.858Z",
+    "title": "Wooden Toys & Furniture for Baby & Children – Coco Village",
+    "url": "https://www.cocovillage.ca",
+    "companyName": "cocovillage",
+    "screenshotPath": "screenshots/Cocovillage.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 1533
+  },
+  {
+    "timestamp": "2024-03-17T18:55:58.192Z",
+    "title": "Office Furniture That Works | Canada Office Furniture | Branch",
+    "url": "https://www.branchfurniture.ca",
+    "companyName": "branchfurniture",
+    "screenshotPath": "screenshots/Branchfurniture.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 666
+  },
+  {
+    "timestamp": "2024-03-17T18:55:59.660Z",
+    "title": "Canada's Open University | Online learning | Athabasca University",
+    "url": "https://www.athabascau.ca",
+    "companyName": "athabascau",
+    "screenshotPath": "screenshots/Athabascau.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 46
+  },
+  {
+    "timestamp": "2024-03-17T18:56:02.085Z",
+    "title": "Shop For CBD Products Online | Blue Forest Farms",
+    "url": "https://www.blueforestfarms.com",
+    "companyName": "blueforestfarms",
+    "screenshotPath": "screenshots/Blueforestfarms.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 707
+  },
+  {
+    "timestamp": "2024-03-17T18:56:02.741Z",
+    "title": "Certified Online Customs Broker | BorderBuddy",
+    "url": "https://www.borderbuddy.com",
+    "companyName": "borderbuddy",
+    "screenshotPath": "screenshots/Borderbuddy.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 79
+  },
+  {
+    "timestamp": "2024-03-17T18:56:05.349Z",
+    "title": "High performing landing pages by ConversionLab",
+    "url": "https://www.conversionlab.no",
+    "companyName": "conversionlab",
+    "screenshotPath": "screenshots/Conversionlab.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 859
+  },
+  {
+    "timestamp": "2024-03-17T18:56:06.405Z",
+    "title": "Class Creator | Student Placement Software",
+    "url": "https://www.classcreator.io",
+    "companyName": "classcreator.io",
+    "screenshotPath": "screenshots/Classcreator.io.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "",
+    "timeToPageLoad": 117
+  },
+  {
+    "timestamp": "2024-03-17T18:56:07.818Z",
+    "title": "HomeLoanGurus | Rent Reporting",
+    "url": "https://www.homeloangurus.com",
+    "companyName": "homeloangurus",
+    "screenshotPath": "screenshots/Homeloangurus.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "React",
+    "timeToPageLoad": 86
+  },
+  {
+    "timestamp": "2024-03-17T18:56:10.499Z",
+    "title": "#1 Luxury Pet Hotel, Boarding & Daycare ✔️ Jet Pet Resort",
+    "url": "https://www.jetpetresort.com",
+    "companyName": "jetpetresort",
+    "screenshotPath": "screenshots/Jetpetresort.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 506
+  },
+  {
+    "timestamp": "2024-03-17T18:56:14.842Z",
+    "title": "Mooala | Organic Plant Based Milk for the Whole Family – Mooala Brands",
+    "url": "https://www.mooala.com",
+    "companyName": "mooala",
+    "screenshotPath": "screenshots/Mooala.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "",
+    "timeToPageLoad": 565
+  },
+  {
+    "timestamp": "2024-03-17T18:56:19.576Z",
+    "title": "Comparer votre assurance auto: Panda7 comparateur d'assurance",
+    "url": "https://www.panda7.ca",
+    "companyName": "panda7",
+    "screenshotPath": "screenshots/Panda7.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 407
+  },
+  {
+    "timestamp": "2024-03-17T18:56:20.016Z",
+    "title": "Just a moment...",
+    "url": "https://www.perfectketo.com",
+    "companyName": "perfectketo",
+    "screenshotPath": "screenshots/Perfectketo.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "",
+    "timeToPageLoad": 36
+  },
+  {
+    "timestamp": "2024-03-17T18:56:23.605Z",
+    "title": "Sundae: Sell fast for the best price, as-is.",
+    "url": "https://www.sundae.com",
+    "companyName": "sundae",
+    "screenshotPath": "screenshots/Sundae.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 950
+  },
+  {
+    "timestamp": "2024-03-17T18:56:27.724Z",
+    "title": "Surfing Lessons Los Angeles & San Diego | Wavehuggers",
+    "url": "https://www.wavehuggers.com",
+    "companyName": "wavehuggers",
+    "screenshotPath": "screenshots/Wavehuggers.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 953
+  },
+  {
+    "timestamp": "2024-03-17T18:56:30.697Z",
+    "title": "Merino Wool Base Layer - Warmest Base Layers For Men & Women - Woolx",
+    "url": "https://www.woolx.com",
+    "companyName": "woolx",
+    "screenshotPath": "screenshots/Woolx.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 487
+  },
+  {
+    "timestamp": "2024-03-17T18:56:33.317Z",
+    "title": "Die Plattform für Marketing, Automatisierungen und E-Mail | Mailchimp",
+    "url": "https://www.mailchimp.com",
+    "companyName": "mailchimp",
+    "screenshotPath": "screenshots/Mailchimp.jpeg",
+    "tags": [
+      ""
+    ],
+    "stack": "React",
+    "timeToPageLoad": 1080
   }
 ]

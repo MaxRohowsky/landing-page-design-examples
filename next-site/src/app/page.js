@@ -45,7 +45,7 @@ export default function Home() {
     return (
         <>
             <Banner />
-            
+
             <Navbar />
 
             <main className="flex min-h-screen flex-col">
@@ -54,14 +54,43 @@ export default function Home() {
 
                 <Filters selectedTags={selectedTags} handleTagClick={handleTagClick} resetFilters={resetFilters} />
 
-                <div className="items-start z-10 w-full flex-wrap gap-4 justify-center text-sm lg:flex">
-                    {data.filter(item => selectedTags.length === 0 || selectedTags.every(tag => item.tags.includes(tag.toLowerCase()))).map((item, index) => (
-                        <Card key={index} item={item} />
-                    ))}
-                </div>
-                
+                <Cards data={data} selectedTags={selectedTags} />
+
+
             </main>
         </>
     );
 }
 
+
+function Cards({ data, selectedTags }) {
+    const [itemsToShow, setItemsToShow] = useState(100); // Start with showing 10 items
+
+    const loadMoreItems = () => {
+        setItemsToShow(itemsToShow + 5); // Load 10 more items when the user scrolls to the end
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', () => {
+            console.log('scrolling');
+            
+            if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 100) {
+                console.log('load more items');
+                loadMoreItems();
+            }
+        });
+        return () => window.removeEventListener('scroll', loadMoreItems);
+    }, [itemsToShow]);
+
+
+    return (
+        <div className="items-start z-10 w-full flex-wrap gap-4 justify-center text-sm lg:flex">
+            {data
+                .filter(item => selectedTags.length === 0 || selectedTags.every(tag => item.tags.includes(tag.toLowerCase())))
+                .slice(0, itemsToShow)
+                .map((item, index) => (
+                    <Card key={index} item={item} />
+                ))}
+        </div>
+    );
+}

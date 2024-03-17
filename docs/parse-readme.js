@@ -121,7 +121,7 @@ const processFile = async (filePath) => {
 
         await page.setExtraHTTPHeaders({ 'Accept-Language': 'en-US,en' });
         await page.setViewport({ width: 1280, height: 720 });
-        await page.goto(url);
+        await page.goto(url, {timeout: 60000});
 
         const websiteStack = await getWebsiteStack(page);
         const title = await page.title();
