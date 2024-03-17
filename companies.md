@@ -1,6 +1,6 @@
 
 
-| Page                                         | Hashtags                      |
+*| Page                                         | Hashtags                      |
 | -------------------------------------------- | ----------------------------- |
 | [Scale](https://www.scale.ai)                | #startup                      |
 | [Head Shot Pro](https://www.headshotpro.com) | #startup                      |
@@ -13,3 +13,14 @@
 | [Spotify](https://www.spotify.com)           | #music; #streaming            |
 | [Microsoft](https://www.microsoft.com)       | #technology; #software        |
 | [Github](https://www.github.com)             | #technology; #software        |
+| [Perspective](https://www.perspective.co)    |     #sales; #saas                          |
+| [Rewind](https://www.rewind.ai)              |    #ai;                            |
+| [Workable](https://www.workable.com)         |   #recruiting                            |
+| [Specify](https://specifyapp.com)            |   #automation                            |
+| [Klu.so](https://klu.so)                     |     #ai; #saas                          |
+| [Magician](https://magician.design)           |     #saas; #design                          |
+| [Rive](https://rive.app)                     |        #gaming; #dark                       |
+| [TubeCut](https://tubecut.app)               |     #social; #saas                          |
+| [Hypercomply](https://www.hypercomply.com)   |     #security; #automation                          |
+| [CommentGuard](https://commentguard.io/)     |     #social                          |
+| [Lemon Squeezy](https://www.lemonsqueezy.com)|      #payments                         |
