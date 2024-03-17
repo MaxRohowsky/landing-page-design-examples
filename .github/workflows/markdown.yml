@@ -21,6 +21,11 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v4
 
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '14'
+
       - name: Run parse-readme.js
         run: node docs/parse-readme.js
 
