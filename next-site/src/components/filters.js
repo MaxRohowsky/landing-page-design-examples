@@ -49,7 +49,7 @@ export default function Filters({ selectedTags, handleTagClick, resetFilters }) 
                 </button>
                 <div className="overflow-x-scroll filter-scrollbar px-1 bg-slate-300 rounded-md p-2">
                     <nav className="flex gap-4 ">
-                        {['🚀 Startup', '👢 Bootstrap', '💼 VC', '☁️ SAAS', '🌐 Web', '📈 Marketing', '🎁 Product', '🎨 Design', '💻 Tech', '💰 Finance', '🎓 Education', '🏥 Healthcare', '🌳 Nonprofit', '🛍️ Ecommerce', '🎥 Video', '📸 Photography', '🎵 Music', '🍽️ Food', '🏋️ Fitness', '🌍 Travel', '🏠 Real Estate', '👔 Corporate', '👨‍💻 Freelance'].map((tag) => (
+                        {[ '💡 Light', '🌈 Colorful', '🌚 Dark', '😀 Happy', '👔 Formal', '🌌 Galaxy', '🎨 Cartoons', '👍 Easy', '👨‍💻 Pro', '🚀 Startup', '📈 Scaleup', '🏢 Corporate', '💰 Finance', '🤖 AI', '📊 Marketing', '💼 Sales', '👥 Recruiting', '🚚 Transport', '🛍️ eCommerce', '👥 Social', '🎨 Design', '🎓 Education', '✈️ Travel', '🎥 Entertainment', '💻 Technology', '📈 productivity' ].map((tag) => (
                             <button
                                 key={tag}
                                 onClick={() => handleTagClick(tag.slice(3))}

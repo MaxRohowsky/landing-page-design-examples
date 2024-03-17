@@ -20,15 +20,15 @@ ecurity; #automation
 ayments                   
 
 
-Look: Light, Colorful, Dark
+Light, Colorful, Dark
 
-Feel: Happy, Formal, Galaxy, Cartoons
+Happy, Formal, Galaxy, Cartoons
 
-Pro: Easy, Pro
+Easy, Pro
 
-Stage: Startup, Scaleup, Corporate
+Startup, Scaleup, Corporate
 
-Other: Finance, AI, Marketing, Sales, Recruiting, Transport, eCommerce, Social, Design, Education, Travel, Entertainment, Technology, productivity
+Finance, AI, Marketing, Sales, Recruiting, Transport, eCommerce, Social, Design, Education, Travel, Entertainment, Technology, productivity
 
 
 
