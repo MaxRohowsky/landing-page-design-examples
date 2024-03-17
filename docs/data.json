@@ -105,19 +105,6 @@
     "timeToPageLoad": 595
   },
   {
-    "timestamp": "2024-03-14T20:17:40.770Z",
-    "title": "Spotify - Web Player: Music for everyone",
-    "url": "https://www.spotify.com",
-    "companyName": "Spotify",
-    "screenshotPath": "screenshots/Spotify.jpeg",
-    "tags": [
-      "music",
-      "streaming"
-    ],
-    "stack": "React",
-    "timeToPageLoad": 70
-  },
-  {
     "timestamp": "2024-03-15T11:27:03.097Z",
     "title": "GitHub: Let’s build from here · GitHub",
     "url": "https://www.github.com",
@@ -142,5 +129,144 @@
     ],
     "stack": "jQuery",
     "timeToPageLoad": 780
+  },
+  {
+    "timestamp": "2024-03-17T16:27:14.433Z",
+    "title": "Perspective Funnels - Easily Build breathtaking Mobile Funnels",
+    "url": "https://www.perspective.co",
+    "companyName": "Perspective",
+    "screenshotPath": "screenshots/Perspective.jpeg",
+    "tags": [
+      "sales",
+      "saas"
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 2099
+  },
+  {
+    "timestamp": "2024-03-17T16:27:17.280Z",
+    "title": "Rewind",
+    "url": "https://www.rewind.ai",
+    "companyName": "Rewind",
+    "screenshotPath": "screenshots/Rewind.jpeg",
+    "tags": [
+      "ai",
+      ""
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 88
+  },
+  {
+    "timestamp": "2024-03-17T16:27:19.582Z",
+    "title": "The world’s leading recruiting software and hiring platform | Workable",
+    "url": "https://www.workable.com",
+    "companyName": "Workable",
+    "screenshotPath": "screenshots/Workable.jpeg",
+    "tags": [
+      "recruiting"
+    ],
+    "stack": "React",
+    "timeToPageLoad": 669
+  },
+  {
+    "timestamp": "2024-03-17T16:27:21.720Z",
+    "title": "Specify | Your Design Token Engine",
+    "url": "https://specifyapp.com",
+    "companyName": "Specify",
+    "screenshotPath": "screenshots/Specify.jpeg",
+    "tags": [
+      "automation"
+    ],
+    "stack": "React",
+    "timeToPageLoad": 28
+  },
+  {
+    "timestamp": "2024-03-17T16:27:23.742Z",
+    "title": "Klu: AI Search Engine For Your Work Apps",
+    "url": "https://klu.so",
+    "companyName": "Klu.so",
+    "screenshotPath": "screenshots/Klu.so.jpeg",
+    "tags": [
+      "ai",
+      "saas"
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 738
+  },
+  {
+    "timestamp": "2024-03-17T16:27:25.595Z",
+    "title": "Magician for Figma",
+    "url": "https://magician.design",
+    "companyName": "Magician",
+    "screenshotPath": "screenshots/Magician.jpeg",
+    "tags": [
+      "saas",
+      "design"
+    ],
+    "stack": "",
+    "timeToPageLoad": 28
+  },
+  {
+    "timestamp": "2024-03-17T16:27:26.885Z",
+    "title": "Rive - Build interactive motion graphics that run anywhere",
+    "url": "https://rive.app",
+    "companyName": "Rive",
+    "screenshotPath": "screenshots/Rive.jpeg",
+    "tags": [
+      "gaming",
+      "dark"
+    ],
+    "stack": "React",
+    "timeToPageLoad": 315
+  },
+  {
+    "timestamp": "2024-03-17T16:27:27.645Z",
+    "title": "tubecut. - Youtube Video Downloader for macOS",
+    "url": "https://tubecut.app",
+    "companyName": "TubeCut",
+    "screenshotPath": "screenshots/TubeCut.jpeg",
+    "tags": [
+      "social",
+      "saas"
+    ],
+    "stack": "React",
+    "timeToPageLoad": 74
+  },
+  {
+    "timestamp": "2024-03-17T16:27:29.258Z",
+    "title": "Automate security questionnaires with HyperComply",
+    "url": "https://www.hypercomply.com",
+    "companyName": "Hypercomply",
+    "screenshotPath": "screenshots/Hypercomply.jpeg",
+    "tags": [
+      "security",
+      "automation"
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 672
+  },
+  {
+    "timestamp": "2024-03-17T16:27:31.961Z",
+    "title": "CommentGuard | Facebook & Instagram Moderation Software",
+    "url": "https://commentguard.io/",
+    "companyName": "CommentGuard",
+    "screenshotPath": "screenshots/CommentGuard.jpeg",
+    "tags": [
+      "social"
+    ],
+    "stack": "jQuery",
+    "timeToPageLoad": 267
+  },
+  {
+    "timestamp": "2024-03-17T16:27:34.236Z",
+    "title": "Stripe | Financial Infrastructure for the Internet",
+    "url": "https://www.stripe.com",
+    "companyName": "Stripe",
+    "screenshotPath": "screenshots/Stripe.jpeg",
+    "tags": [
+      "payments"
+    ],
+    "stack": "",
+    "timeToPageLoad": 1305
   }
 ]

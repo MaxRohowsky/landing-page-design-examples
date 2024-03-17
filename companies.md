@@ -10,7 +10,6 @@
 | [Facebook](https://www.facebook.com)         | #socialmedia; #networking     |
 | [Amazon](https://www.amazon.com)             | #ecommerce; #retail           |
 | [Netflix](https://www.netflix.com)           | #streaming; #entertainment    |
-| [Spotify](https://www.spotify.com)           | #music; #streaming            |
 | [Microsoft](https://www.microsoft.com)       | #technology; #software        |
 | [Github](https://www.github.com)             | #technology; #software        |
 | [Perspective](https://www.perspective.co)    |     #sales; #saas                          |
@@ -23,4 +22,6 @@
 | [TubeCut](https://tubecut.app)               |     #social; #saas                          |
 | [Hypercomply](https://www.hypercomply.com)   |     #security; #automation                          |
 | [CommentGuard](https://commentguard.io/)     |     #social                          |
-| [Lemon Squeezy](https://www.lemonsqueezy.com)|      #payments                         |
+| [Stripe](https://www.stripe.com)|      #payments                         |
+| [Max On Tech](https://www.maxontech.io)|      #blog                         |
+
