@@ -603,18 +603,6 @@
     "timeToPageLoad": 56
   },
   {
-    "timestamp": "2024-03-17T18:53:12.262Z",
-    "title": "",
-    "url": "https://www.waaffle.com",
-    "companyName": "waaffle",
-    "screenshotPath": "screenshots/Waaffle.jpeg",
-    "tags": [
-      ""
-    ],
-    "stack": "",
-    "timeToPageLoad": 63
-  },
-  {
     "timestamp": "2024-03-17T18:53:15.492Z",
     "title": "Heap - Better Insights. Faster. | Heap",
     "url": "https://www.heapanalytics.com",

@@ -49,7 +49,6 @@
 | [Litmus](https://www.litmus.com)                         |                               |
 | [Sumo](https://www.sumo.com)                             |                               |
 | [Memsql](http://www.memsql.com)                          |                               |
-| [Waaffle](https://www.waaffle.com)                       |                               |
 | [Heapanalytics](https://www.heapanalytics.com)           |                               |
 | [Segment](https://www.segment.com)                       |                               |
 | [Algolia](https://www.algolia.com)                       |                               |
