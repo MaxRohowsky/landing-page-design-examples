@@ -1,37 +1,21 @@
-tartup                    
-tartup                    
-ravel; #rental            
-ransportation; #ridesharin
-earch; #technology        
-ocialmedia; #networking   
-commerce; #retail         
-treaming; #entertainment  
-echnology; #software      
-echnology; #software      
-ales; #saas               
-i                         
-ecruiting                 
-utomation                 
-i; #saas                  
-aas; #design              
-aming; #dark              
-ocial; #saas              
-ecurity; #automation      
-ayments                   
 
+# Best GitHub Profile READMEs
 
-Light, Colorful, Dark
+![Preview](./preview.gif)
 
-Happy, Formal, Galaxy, Cartoons
+## What is this Project?
 
-Easy, Pro
+**"Landing Page Design Examples"** is a curated list of **Beautiful** and **Unique** Landing Pages.
 
-Startup, Scaleup, Corporate
+[This website](landing-page-design-examples.vercel.app) showcases all the Pages. Each site is scrollable, and there are filters by which you can sort the landing pages.
 
-Finance, AI, Marketing, Sales, Recruiting, Transport, eCommerce, Social, Design, Education, Travel, Entertainment, Technology, productivity
+I encourage everyone to contribute to this project by **adding websites** or **fixing bugs**.
 
+**Support:**
+<br>
+Star 🌟 the Project: ![GitHub stars](https://img.shields.io/github/stars/maxontech/landing-page-design-examples.svg?style=social&label=Star)
+<br>
+Follow 🤝 on GitHub: ![GitHub followers](https://img.shields.io/github/followers/maxontech.svg?style=social&label=Follow)
+<br>
 
-
-
-['🚀 Startup', '👢 Bootstrap', '💼 VC', '☁️ SAAS',  '📈 Marketing', ' Dark', '🎨 Design', '💻 Tech', '💰 Finance', '🎓 Education', '🏥 Healthcare', '🌳 Nonprofit', '🛍️ Ecommerce', '🎥 Video', '📸 Photography', '🎵 Music', '🍽️ Food', '🏋️ Fitness', '🌍 Travel', '🏠 Real Estate', '👔 Corporate', '👨‍💻 Freelance']
-
+ 
