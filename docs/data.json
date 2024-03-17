@@ -701,7 +701,7 @@
   {
     "timestamp": "2024-03-17T18:55:40.271Z",
     "title": "Create your online store today with Shopify USA",
-    "url": "https://www.shopify.com/free-trial",
+    "url": "https://www.shopify.com",
     "companyName": "shopify",
     "screenshotPath": "screenshots/Shopify.jpeg",
     "tags": [
@@ -709,18 +709,6 @@
     ],
     "stack": "",
     "timeToPageLoad": 441
-  },
-  {
-    "timestamp": "2024-03-17T18:55:42.779Z",
-    "title": "Muzzle - silence embarrassing notifications",
-    "url": "https://www.muzzleapp.com",
-    "companyName": "muzzleapp",
-    "screenshotPath": "screenshots/Muzzleapp.jpeg",
-    "tags": [
-      ""
-    ],
-    "stack": "jQuery",
-    "timeToPageLoad": 169
   },
   {
     "timestamp": "2024-03-17T18:55:47.131Z",
