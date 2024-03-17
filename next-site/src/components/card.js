@@ -7,15 +7,23 @@ export default function Card({ item }) {
         <div className="flex flex-col justify-center mr-1 ml-1 mt-1 mb-3">
             <div className="flex flex-col items-start">
                 <div className='overflow-y-auto card-scrollbar rounded-sm w-[350px] h-[400px] transition-transform duration-500 ease-in-out transform lg:hover:scale-105 shadow-md'>
+                <a href={item.url} target="_blank" >
                     <Image
                         src={`https://raw.githubusercontent.com/maxontech/landing-page-design-examples/master/docs/${item.screenshotPath}`}
                         alt={item.title}
                         width={500}
                         height={600}
                     />
+                </a>
                 </div>
                 <span className="flex justify-between items-baseline mt-2 pl-1 pr-1 w-[350px]">
-                    <h2 className=" font-semibold text-sm">{item.companyName}</h2>
+                    
+                        <h2 className=" font-semibold text-sm">
+
+                            {item.companyName}
+
+                        </h2>
+                    
                     <div className="flex space-x-1 text-sm font-normal" >
                         <p className="">
                             {item.stack !== "" && <FontAwesomeIcon className="mx-1" icon={faLayerGroup} />}
@@ -34,3 +42,4 @@ export default function Card({ item }) {
         </div>
     );
 }
+
