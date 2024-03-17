@@ -21,7 +21,7 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v4
 
-      - name: Install dependencies
+      - name: Install Dependencies
         uses: npm install
 
       - name: Run parse-readme.js
