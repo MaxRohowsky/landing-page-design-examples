@@ -24,8 +24,11 @@ jobs:
       - name: Install Node.js
         run: npm install
 
-      - name: Run parse-readme.js
+      - name: Run Test
         run: echo "Hello World"
+
+      - name: Run parse-markdown
+        run: run docs/parse-readme.js
 
       - name: Commit and push if changed
         uses: EndBug/add-and-commit@v4
