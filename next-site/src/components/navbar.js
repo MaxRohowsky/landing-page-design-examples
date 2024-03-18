@@ -1,9 +1,12 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import Image from 'next/image';
-
+import { faStar } from '@fortawesome/free-solid-svg-icons';
+import confetti from 'canvas-confetti';
+import { useState } from 'react';
 
 export default function Navbar() {
+    const [buttonText, setButtonText] = useState('Star on GitHub');
+
 
     return (
         <header>
@@ -19,17 +22,19 @@ export default function Navbar() {
                             height={50}
                         />
 
-                        <span className="self-center sm:block hidden text-xl font-semibold whitespace-nowrap dark:text-white">
+                        <span className="self-center sm:block hidden text-xl font-semibold whitespace-nowrap dark:text-white" >
                             LandingHero
 
                         </span>
 
+
                     </div>
                     <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                         <a href="https://github.com/maxontech/landing-page-design-examples" target="_blank" rel="noopener noreferrer">
-                            <button type="button" className="text-white bg-github hover:bg-blue-500 active:bg-blue-700 font-medium rounded-lg text-sm px-4 py-2">
-                                <FontAwesomeIcon icon={faGithub} className='pr-2' />
-                                View on GitHub
+                            <button type="button" className="text-white bg-github hover:bg-blue-500 active:bg-blue-700 font-medium rounded-lg text-sm px-4 py-2" 
+                            onMouseEnter={() => {confetti(); setButtonText("Make my Day!");}} onMouseLeave={() => setButtonText('Star on GitHub')}>
+                            <FontAwesomeIcon icon={faStar} className='pr-2 gold-pulsate' />
+                                {buttonText}
                             </button>
                         </a>
                     </div>

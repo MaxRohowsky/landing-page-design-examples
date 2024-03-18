@@ -1,10 +1,6 @@
 'use client'
-import Image from 'next/image';
 import { useEffect, useState } from 'react';
-
-import { faReact } from '@fortawesome/free-brands-svg-icons'
-import { faClock } from '@fortawesome/free-regular-svg-icons'
-import { faLayerGroup } from '@fortawesome/free-solid-svg-icons';
+import InfiniteScroll from 'react-infinite-scroll-component';
 import Card from '@/components/card';
 import Banner from '@/components/banner';
 import Navbar from '@/components/navbar';
@@ -54,7 +50,9 @@ export default function Home() {
 
                 <Filters selectedTags={selectedTags} handleTagClick={handleTagClick} resetFilters={resetFilters} />
 
-                <Cards data={data} selectedTags={selectedTags} />
+
+                    <Cards data={data} selectedTags={selectedTags} />
+
 
 
             </main>
@@ -73,7 +71,7 @@ function Cards({ data, selectedTags }) {
     useEffect(() => {
         window.addEventListener('scroll', () => {
             console.log('scrolling');
-            
+
             if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 100) {
                 console.log('load more items');
                 loadMoreItems();

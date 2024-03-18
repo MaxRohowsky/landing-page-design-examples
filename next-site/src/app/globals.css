@@ -59,5 +59,15 @@ body {
   width: 5px;
 }
 
+.gold-pulsate {
+  color: gold;
+  animation: pulsate 2s infinite;
+}
+
+@keyframes pulsate {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
 
 
