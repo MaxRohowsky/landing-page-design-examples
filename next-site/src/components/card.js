@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLayerGroup, faClock } from '@fortawesome/free-solid-svg-icons'
 import Image from 'next/image';
 
-export default function Card({ item, screenshot }) {
+export default function Card({ item }) {
     return (
         <div className="flex flex-col justify-center mr-1 ml-1 mt-1 mb-3">
             <div className="flex flex-col items-start">
