@@ -82,7 +82,7 @@ function Cards({ data, selectedTags }) {
 
 
     return (
-        <div className="items-start z-10 w-full flex-wrap gap-4 justify-center text-sm lg:flex">
+        <div className="items-start z-10 w-full flex-wrap gap-4 justify-center text-sm flex">
             {data
                 .filter(item => selectedTags.length === 0 || selectedTags.every(tag => item.tags.includes(tag.toLowerCase())))
                 .slice(0, itemsToShow)
