@@ -12,7 +12,7 @@ export default function Navbar() {
         <header>
             <nav className="bg-white  w-full z-20 top-0 start-0 border-b border-gray-200 ">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3">
-                    <div className="flex items-center space-x-3 rtl:space-x-reverse">
+                    <div className="flex items-center space-x-3">
 
                         <Image
                             src="/landing-hero.png"
@@ -24,21 +24,20 @@ export default function Navbar() {
 
                         <span className="self-center sm:block hidden text-xl font-semibold whitespace-nowrap " >
                             LandingHero
-
                         </span>
 
-
                     </div>
-                    <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+
+                    <div className="flex md:order-2 space-x-3 md:space-x-0 ">
+
                         <a href="https://github.com/maxontech/landing-page-design-examples" target="_blank" rel="noopener noreferrer">
-                            <button type="button" className="text-white bg-github hover:bg-blue-500 active:bg-blue-700 font-medium rounded-lg text-sm px-4 py-2" 
-                            onMouseEnter={() => {confetti(); setButtonText("Make my Day!");}} onMouseLeave={() => setButtonText('Star on GitHub')}>
-                            <FontAwesomeIcon icon={faStar} className='pr-2 gold-pulsate' />
+                            <button type="button" className="text-white bg-github hover:bg-blue-500 active:bg-blue-700 font-medium rounded-lg text-sm px-4 py-2"
+                                onMouseEnter={() => { confetti(); setButtonText("Make my Day!"); }} onMouseLeave={() => setButtonText('Star on GitHub')}>
+                                <FontAwesomeIcon icon={faStar} className='pr-2 gold-pulsate' />
                                 {buttonText}
                             </button>
                         </a>
-                    </div>
-                    <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+
                     </div>
                 </div>
             </nav>
